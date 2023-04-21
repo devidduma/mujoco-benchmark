@@ -67,6 +67,7 @@ def get_args():
         action="store_true",
         help="watch the play of pre-trained policy only",
     )
+    parser.add_argument("--algo-label", type=str, default="")
     return parser.parse_args()
 
 
@@ -169,7 +170,8 @@ def test_npg(args=get_args()):
     # log
     now = datetime.datetime.now().strftime("%y%m%d-%H%M%S")
     args.algo_name = "npg"
-    log_name = os.path.join(args.task, args.algo_name, str(args.seed), now)
+    args.algo_label = "" if args.algo_label == "" else " " + args.algo_label
+    log_name = os.path.join(args.task, args.algo_name, str(args.seed), now + args.algo_label)
     log_path = os.path.join(args.logdir, log_name)
 
     # logger
