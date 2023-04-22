@@ -37,7 +37,7 @@ def get_args():
     parser.add_argument("--epoch", type=int, default=200)
     parser.add_argument("--step-per-epoch", type=int, default=5000)
     parser.add_argument("--step-per-collect", type=int, default=1)
-    parser.add_argument("--update-per-step", type=int, default=20)
+    parser.add_argument("--update-per-step", type=int, default=1)
     parser.add_argument("--n-step", type=int, default=1)
     parser.add_argument("--batch-size", type=int, default=256)
     parser.add_argument(
