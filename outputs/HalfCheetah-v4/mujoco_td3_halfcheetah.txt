@@ -1,0 +1,421 @@
+G:\DD\mujoco-benchmark\venv\Scripts\python.exe G:\DD\mujoco-benchmark\mujoco_td3.py --task HalfCheetah-v4
+G:\DD\mujoco-benchmark\mujoco_env.py:26: UserWarning: Recommend using envpool (pip install envpool) to run Mujoco environments more efficiently.
+  warnings.warn(
+Observations shape: (17,)
+Actions shape: (6,)
+Action range: -1.0 1.0
+Epoch #1: 5001it [00:41, 121.98it/s, env_step=5000, len=1000, loss/actor=-1.389, loss/critic1=0.717, loss/critic2=0.688, n/ep=1, n/st=1, rew=-423.93]
+Epoch #2:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=5002, len=1000, loss/actor=-1.385, loss/critic1=0.713, loss/critic2=0.685, n/ep=0, n/st=1, rew=-423.93]Epoch #1: test_reward: -372.184782 ± 56.806299, best_reward: -1.428937 ± 0.656412 in #0
+Epoch #2: 5001it [00:40, 125.01it/s, env_step=10000, len=1000, loss/actor=-5.458, loss/critic1=0.946, loss/critic2=0.924, n/ep=1, n/st=1, rew=-8.91]
+Epoch #3:   0%|          | 2/5000 [00:00<00:39, 124.98it/s, env_step=10002, len=1000, loss/actor=-5.470, loss/critic1=0.947, loss/critic2=0.924, n/ep=0, n/st=1, rew=-8.91]Epoch #2: test_reward: -74.452319 ± 50.182433, best_reward: -1.428937 ± 0.656412 in #0
+Epoch #3: 5001it [00:40, 124.75it/s, env_step=15000, len=1000, loss/actor=-8.144, loss/critic1=1.209, loss/critic2=1.210, n/ep=1, n/st=1, rew=260.49]
+Epoch #3: test_reward: 500.551796 ± 165.046606, best_reward: 500.551796 ± 165.046606 in #3
+Epoch #4: 5001it [00:40, 122.42it/s, env_step=20000, len=1000, loss/actor=-14.114, loss/critic1=1.357, loss/critic2=1.322, n/ep=1, n/st=1, rew=1507.18]
+Epoch #4: test_reward: 1448.039312 ± 398.783145, best_reward: 1448.039312 ± 398.783145 in #4
+Epoch #5: 5001it [00:39, 125.09it/s, env_step=25000, len=1000, loss/actor=-23.651, loss/critic1=2.018, loss/critic2=2.005, n/ep=1, n/st=1, rew=2040.36]
+Epoch #6:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=25002, len=1000, loss/actor=-23.640, loss/critic1=2.023, loss/critic2=2.012, n/ep=0, n/st=1, rew=2040.36]Epoch #5: test_reward: 2025.267747 ± 274.815071, best_reward: 2025.267747 ± 274.815071 in #5
+Epoch #6: 5001it [00:39, 125.03it/s, env_step=30000, len=1000, loss/actor=-35.507, loss/critic1=2.644, loss/critic2=2.685, n/ep=1, n/st=1, rew=2648.51]
+Epoch #7:   0%|          | 2/5000 [00:00<00:42, 117.66it/s, env_step=30002, len=1000, loss/actor=-35.489, loss/critic1=2.668, loss/critic2=2.712, n/ep=0, n/st=1, rew=2648.51]Epoch #6: test_reward: 1506.873020 ± 1156.919774, best_reward: 2025.267747 ± 274.815071 in #5
+Epoch #7: 5001it [00:40, 124.22it/s, env_step=35000, len=1000, loss/actor=-48.380, loss/critic1=3.473, loss/critic2=3.440, n/ep=1, n/st=1, rew=3271.01]
+Epoch #7: test_reward: 2512.961536 ± 1170.245838, best_reward: 2512.961536 ± 1170.245838 in #7
+Epoch #8: 5001it [00:40, 122.70it/s, env_step=40000, len=1000, loss/actor=-62.710, loss/critic1=4.938, loss/critic2=4.841, n/ep=1, n/st=1, rew=3604.65]
+Epoch #8: test_reward: 3193.176744 ± 890.525805, best_reward: 3193.176744 ± 890.525805 in #8
+Epoch #9: 5001it [00:39, 125.77it/s, env_step=45000, len=1000, loss/actor=-74.698, loss/critic1=6.044, loss/critic2=5.992, n/ep=1, n/st=1, rew=3817.87]
+Epoch #9: test_reward: 2214.202413 ± 1399.421979, best_reward: 3193.176744 ± 890.525805 in #8
+Epoch #10: 5001it [00:39, 125.33it/s, env_step=50000, len=1000, loss/actor=-92.790, loss/critic1=7.579, loss/critic2=7.442, n/ep=1, n/st=1, rew=4020.92]
+Epoch #11:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=50002, len=1000, loss/actor=-92.710, loss/critic1=7.541, loss/critic2=7.394, n/ep=0, n/st=1, rew=4020.92]Epoch #10: test_reward: 4142.739203 ± 151.243952, best_reward: 4142.739203 ± 151.243952 in #10
+Epoch #11: 5001it [00:40, 124.66it/s, env_step=55000, len=1000, loss/actor=-109.385, loss/critic1=9.297, loss/critic2=9.233, n/ep=1, n/st=1, rew=3839.81]
+Epoch #12:   0%|          | 2/5000 [00:00<00:44, 111.10it/s, env_step=55002, len=1000, loss/actor=-109.606, loss/critic1=9.291, loss/critic2=9.251, n/ep=0, n/st=1, rew=3839.81]Epoch #11: test_reward: 4105.105727 ± 115.216588, best_reward: 4142.739203 ± 151.243952 in #10
+Epoch #12: 5001it [00:39, 125.07it/s, env_step=60000, len=1000, loss/actor=-127.470, loss/critic1=9.706, loss/critic2=9.651, n/ep=1, n/st=1, rew=4362.02]
+Epoch #13:   0%|          | 2/5000 [00:00<00:39, 125.03it/s, env_step=60002, len=1000, loss/actor=-127.579, loss/critic1=9.740, loss/critic2=9.633, n/ep=0, n/st=1, rew=4362.02]Epoch #12: test_reward: 3973.897813 ± 1143.697122, best_reward: 4142.739203 ± 151.243952 in #10
+Epoch #13: 5001it [00:39, 126.53it/s, env_step=65000, len=1000, loss/actor=-143.122, loss/critic1=10.104, loss/critic2=10.026, n/ep=1, n/st=1, rew=4390.86]
+Epoch #14:   0%|          | 2/5000 [00:00<00:39, 124.98it/s, env_step=65002, len=1000, loss/actor=-143.063, loss/critic1=10.133, loss/critic2=10.033, n/ep=0, n/st=1, rew=4390.86]Epoch #13: test_reward: 4328.599679 ± 610.160999, best_reward: 4328.599679 ± 610.160999 in #13
+Epoch #14: 5001it [00:39, 125.24it/s, env_step=70000, len=1000, loss/actor=-161.653, loss/critic1=11.489, loss/critic2=11.749, n/ep=1, n/st=1, rew=4341.21]
+Epoch #15:   0%|          | 2/5000 [00:00<00:44, 111.10it/s, env_step=70002, len=1000, loss/actor=-161.972, loss/critic1=11.531, loss/critic2=11.816, n/ep=0, n/st=1, rew=4341.21]Epoch #14: test_reward: 4633.599490 ± 443.778880, best_reward: 4633.599490 ± 443.778880 in #14
+Epoch #15: 5001it [00:40, 124.11it/s, env_step=75000, len=1000, loss/actor=-175.196, loss/critic1=12.688, loss/critic2=12.865, n/ep=1, n/st=1, rew=4578.47]
+Epoch #16:   0%|          | 2/5000 [00:00<00:42, 117.68it/s, env_step=75002, len=1000, loss/actor=-175.474, loss/critic1=12.733, loss/critic2=12.904, n/ep=0, n/st=1, rew=4578.47]Epoch #15: test_reward: 4070.095254 ± 1308.952223, best_reward: 4633.599490 ± 443.778880 in #14
+Epoch #16: 5001it [00:39, 126.78it/s, env_step=80000, len=1000, loss/actor=-193.123, loss/critic1=13.964, loss/critic2=14.383, n/ep=1, n/st=1, rew=4809.57]
+Epoch #16: test_reward: 4292.182900 ± 1486.610081, best_reward: 4633.599490 ± 443.778880 in #14
+Epoch #17: 5001it [00:39, 126.47it/s, env_step=85000, len=1000, loss/actor=-205.113, loss/critic1=15.359, loss/critic2=15.525, n/ep=1, n/st=1, rew=4961.85]
+Epoch #17: test_reward: 4810.739638 ± 1093.899939, best_reward: 4810.739638 ± 1093.899939 in #17
+Epoch #18: 5001it [00:39, 125.49it/s, env_step=90000, len=1000, loss/actor=-220.709, loss/critic1=16.172, loss/critic2=15.979, n/ep=1, n/st=1, rew=5264.10]
+Epoch #18: test_reward: 5006.451914 ± 1560.062046, best_reward: 5006.451914 ± 1560.062046 in #18
+Epoch #19: 5001it [00:40, 124.89it/s, env_step=95000, len=1000, loss/actor=-236.072, loss/critic1=16.523, loss/critic2=16.948, n/ep=1, n/st=1, rew=5547.75]
+Epoch #19: test_reward: 5858.828415 ± 43.997308, best_reward: 5858.828415 ± 43.997308 in #19
+Epoch #20: 5001it [00:39, 127.01it/s, env_step=100000, len=1000, loss/actor=-251.183, loss/critic1=17.020, loss/critic2=16.628, n/ep=1, n/st=1, rew=5575.86]
+Epoch #21:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=100002, len=1000, loss/actor=-251.371, loss/critic1=17.037, loss/critic2=16.651, n/ep=0, n/st=1, rew=5575.86]Epoch #20: test_reward: 5816.759966 ± 111.214341, best_reward: 5858.828415 ± 43.997308 in #19
+Epoch #21: 5001it [00:39, 126.96it/s, env_step=105000, len=1000, loss/actor=-266.491, loss/critic1=18.334, loss/critic2=18.202, n/ep=1, n/st=1, rew=5538.27]
+Epoch #22:   0%|          | 2/5000 [00:00<00:42, 117.64it/s, env_step=105002, len=1000, loss/actor=-266.578, loss/critic1=18.290, loss/critic2=18.189, n/ep=0, n/st=1, rew=5538.27]Epoch #21: test_reward: 5871.024977 ± 82.807134, best_reward: 5871.024977 ± 82.807134 in #21
+Epoch #22: 5001it [00:39, 125.51it/s, env_step=110000, len=1000, loss/actor=-279.286, loss/critic1=19.016, loss/critic2=19.571, n/ep=1, n/st=1, rew=5742.94]
+Epoch #23:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=110002, len=1000, loss/actor=-279.214, loss/critic1=19.103, loss/critic2=19.649, n/ep=0, n/st=1, rew=5742.94]Epoch #22: test_reward: 5977.391703 ± 33.149352, best_reward: 5977.391703 ± 33.149352 in #22
+Epoch #23: 5001it [00:39, 126.00it/s, env_step=115000, len=1000, loss/actor=-293.714, loss/critic1=19.389, loss/critic2=18.798, n/ep=1, n/st=1, rew=5542.90]
+Epoch #24:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=115002, len=1000, loss/actor=-293.635, loss/critic1=19.420, loss/critic2=18.753, n/ep=0, n/st=1, rew=5542.90]Epoch #23: test_reward: 5973.119117 ± 81.421004, best_reward: 5977.391703 ± 33.149352 in #22
+Epoch #24: 5001it [00:39, 126.75it/s, env_step=120000, len=1000, loss/actor=-303.557, loss/critic1=19.699, loss/critic2=19.710, n/ep=1, n/st=1, rew=5620.86]
+Epoch #25:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=120002, len=1000, loss/actor=-303.770, loss/critic1=19.656, loss/critic2=19.651, n/ep=0, n/st=1, rew=5620.86]Epoch #24: test_reward: 6077.155879 ± 26.463375, best_reward: 6077.155879 ± 26.463375 in #24
+Epoch #25: 5001it [00:39, 127.77it/s, env_step=125000, len=1000, loss/actor=-317.559, loss/critic1=19.079, loss/critic2=18.896, n/ep=1, n/st=1, rew=5799.17]
+Epoch #25: test_reward: 5644.085813 ± 63.118971, best_reward: 6077.155879 ± 26.463375 in #24
+Epoch #26: 5001it [00:39, 126.33it/s, env_step=130000, len=1000, loss/actor=-329.060, loss/critic1=17.151, loss/critic2=17.485, n/ep=1, n/st=1, rew=5785.69]
+Epoch #26: test_reward: 6116.320969 ± 85.266776, best_reward: 6116.320969 ± 85.266776 in #26
+Epoch #27: 5001it [00:39, 126.36it/s, env_step=135000, len=1000, loss/actor=-339.302, loss/critic1=18.205, loss/critic2=18.680, n/ep=1, n/st=1, rew=5923.03]
+Epoch #27: test_reward: 6128.306613 ± 36.027856, best_reward: 6128.306613 ± 36.027856 in #27
+Epoch #28: 5001it [00:39, 126.77it/s, env_step=140000, len=1000, loss/actor=-346.086, loss/critic1=17.079, loss/critic2=17.564, n/ep=1, n/st=1, rew=5929.65]
+Epoch #29:   0%|          | 2/5000 [00:00<00:37, 133.34it/s, env_step=140002, len=1000, loss/actor=-346.167, loss/critic1=17.096, loss/critic2=17.562, n/ep=0, n/st=1, rew=5929.65]Epoch #28: test_reward: 6103.917206 ± 91.353074, best_reward: 6128.306613 ± 36.027856 in #27
+Epoch #29: 5001it [00:39, 127.54it/s, env_step=145000, len=1000, loss/actor=-355.166, loss/critic1=17.292, loss/critic2=17.650, n/ep=1, n/st=1, rew=5859.87]
+Epoch #29: test_reward: 6052.453760 ± 58.053959, best_reward: 6128.306613 ± 36.027856 in #27
+Epoch #30: 5001it [00:39, 127.48it/s, env_step=150000, len=1000, loss/actor=-364.859, loss/critic1=17.622, loss/critic2=18.104, n/ep=1, n/st=1, rew=5881.79]
+Epoch #31:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=150002, len=1000, loss/actor=-364.595, loss/critic1=17.694, loss/critic2=18.119, n/ep=0, n/st=1, rew=5881.79]Epoch #30: test_reward: 6214.540735 ± 63.994464, best_reward: 6214.540735 ± 63.994464 in #30
+Epoch #31: 5001it [00:39, 127.73it/s, env_step=155000, len=1000, loss/actor=-374.429, loss/critic1=16.833, loss/critic2=16.889, n/ep=1, n/st=1, rew=5954.59]
+Epoch #32:   0%|          | 2/5000 [00:00<00:39, 125.02it/s, env_step=155002, len=1000, loss/actor=-374.822, loss/critic1=16.769, loss/critic2=16.808, n/ep=0, n/st=1, rew=5954.59]Epoch #31: test_reward: 6334.118611 ± 51.270816, best_reward: 6334.118611 ± 51.270816 in #31
+Epoch #32: 5001it [00:39, 127.98it/s, env_step=160000, len=1000, loss/actor=-379.287, loss/critic1=16.086, loss/critic2=15.844, n/ep=1, n/st=1, rew=5966.99]
+Epoch #33:   0%|          | 2/5000 [00:00<00:39, 125.02it/s, env_step=160002, len=1000, loss/actor=-379.689, loss/critic1=16.071, loss/critic2=15.786, n/ep=0, n/st=1, rew=5966.99]Epoch #32: test_reward: 6293.115094 ± 65.580327, best_reward: 6334.118611 ± 51.270816 in #31
+Epoch #33: 5001it [00:38, 128.58it/s, env_step=165000, len=1000, loss/actor=-387.731, loss/critic1=15.773, loss/critic2=15.826, n/ep=1, n/st=1, rew=6032.85]
+Epoch #34:   0%|          | 2/5000 [00:00<00:42, 117.64it/s, env_step=165002, len=1000, loss/actor=-387.324, loss/critic1=15.809, loss/critic2=15.849, n/ep=0, n/st=1, rew=6032.85]Epoch #33: test_reward: 6505.353396 ± 51.579700, best_reward: 6505.353396 ± 51.579700 in #33
+Epoch #34: 5001it [00:38, 128.58it/s, env_step=170000, len=1000, loss/actor=-394.842, loss/critic1=14.876, loss/critic2=14.818, n/ep=1, n/st=1, rew=6095.07]
+Epoch #34: test_reward: 6661.250309 ± 69.378914, best_reward: 6661.250309 ± 69.378914 in #34
+Epoch #35: 5001it [00:38, 128.84it/s, env_step=175000, len=1000, loss/actor=-400.470, loss/critic1=14.063, loss/critic2=14.063, n/ep=1, n/st=1, rew=6142.55]
+Epoch #36:   0%|          | 3/5000 [00:00<00:39, 125.00it/s, env_step=175003, len=1000, loss/actor=-399.735, loss/critic1=14.059, loss/critic2=14.071, n/ep=0, n/st=1, rew=6142.55]Epoch #35: test_reward: 5820.338815 ± 54.772529, best_reward: 6661.250309 ± 69.378914 in #34
+Epoch #36: 5001it [00:38, 128.32it/s, env_step=180000, len=1000, loss/actor=-409.769, loss/critic1=14.056, loss/critic2=13.992, n/ep=1, n/st=1, rew=6233.99]
+Epoch #36: test_reward: 6537.833142 ± 91.217143, best_reward: 6661.250309 ± 69.378914 in #34
+Epoch #37: 5001it [00:38, 129.69it/s, env_step=185000, len=1000, loss/actor=-416.036, loss/critic1=13.996, loss/critic2=13.829, n/ep=1, n/st=1, rew=6284.36]
+Epoch #38:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=185002, len=1000, loss/actor=-416.295, loss/critic1=13.994, loss/critic2=13.911, n/ep=0, n/st=1, rew=6284.36]Epoch #37: test_reward: 6589.024257 ± 72.743908, best_reward: 6661.250309 ± 69.378914 in #34
+Epoch #38: 5001it [00:38, 128.96it/s, env_step=190000, len=1000, loss/actor=-419.965, loss/critic1=14.212, loss/critic2=14.220, n/ep=1, n/st=1, rew=6274.57]
+Epoch #39:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=190002, len=1000, loss/actor=-420.000, loss/critic1=14.233, loss/critic2=14.200, n/ep=0, n/st=1, rew=6274.57]Epoch #38: test_reward: 6806.645288 ± 52.691394, best_reward: 6806.645288 ± 52.691394 in #38
+Epoch #39: 5001it [00:38, 128.45it/s, env_step=195000, len=1000, loss/actor=-424.305, loss/critic1=13.095, loss/critic2=13.176, n/ep=1, n/st=1, rew=6429.71]
+Epoch #40:   0%|          | 2/5000 [00:00<00:39, 124.99it/s, env_step=195002, len=1000, loss/actor=-424.330, loss/critic1=13.007, loss/critic2=13.021, n/ep=0, n/st=1, rew=6429.71]Epoch #39: test_reward: 6542.557152 ± 56.759736, best_reward: 6806.645288 ± 52.691394 in #38
+Epoch #40: 5001it [00:38, 129.27it/s, env_step=200000, len=1000, loss/actor=-431.375, loss/critic1=12.842, loss/critic2=13.124, n/ep=1, n/st=1, rew=6363.94]
+Epoch #40: test_reward: 6884.084181 ± 49.630630, best_reward: 6884.084181 ± 49.630630 in #40
+Epoch #41: 5001it [00:38, 128.96it/s, env_step=205000, len=1000, loss/actor=-436.240, loss/critic1=13.038, loss/critic2=13.086, n/ep=1, n/st=1, rew=6322.43]
+Epoch #41: test_reward: 6670.478614 ± 43.039972, best_reward: 6884.084181 ± 49.630630 in #40
+Epoch #42: 5001it [00:38, 129.28it/s, env_step=210000, len=1000, loss/actor=-441.293, loss/critic1=12.749, loss/critic2=12.991, n/ep=1, n/st=1, rew=6554.78]
+Epoch #43:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=210002, len=1000, loss/actor=-441.167, loss/critic1=12.739, loss/critic2=13.054, n/ep=0, n/st=1, rew=6554.78]Epoch #42: test_reward: 6808.859332 ± 65.059660, best_reward: 6884.084181 ± 49.630630 in #40
+Epoch #43: 5001it [00:39, 127.81it/s, env_step=215000, len=1000, loss/actor=-445.495, loss/critic1=13.573, loss/critic2=13.717, n/ep=1, n/st=1, rew=6729.44]
+Epoch #44:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=215002, len=1000, loss/actor=-445.383, loss/critic1=13.522, loss/critic2=13.642, n/ep=0, n/st=1, rew=6729.44]Epoch #43: test_reward: 6288.522080 ± 93.471735, best_reward: 6884.084181 ± 49.630630 in #40
+Epoch #44: 5001it [00:38, 128.66it/s, env_step=220000, len=1000, loss/actor=-450.216, loss/critic1=12.760, loss/critic2=13.015, n/ep=1, n/st=1, rew=6546.74]
+Epoch #44: test_reward: 7138.377014 ± 65.213770, best_reward: 7138.377014 ± 65.213770 in #44
+Epoch #45: 5001it [00:39, 127.95it/s, env_step=225000, len=1000, loss/actor=-457.429, loss/critic1=12.599, loss/critic2=12.381, n/ep=1, n/st=1, rew=6578.06]
+Epoch #45: test_reward: 7227.957862 ± 67.139972, best_reward: 7227.957862 ± 67.139972 in #45
+Epoch #46: 5001it [00:38, 129.56it/s, env_step=230000, len=1000, loss/actor=-460.243, loss/critic1=13.461, loss/critic2=13.198, n/ep=1, n/st=1, rew=6610.12]
+Epoch #46: test_reward: 7106.341859 ± 89.645824, best_reward: 7227.957862 ± 67.139972 in #45
+Epoch #47: 5001it [00:39, 127.73it/s, env_step=235000, len=1000, loss/actor=-464.197, loss/critic1=13.355, loss/critic2=13.666, n/ep=1, n/st=1, rew=6707.59]
+Epoch #48:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=235002, len=1000, loss/actor=-464.285, loss/critic1=13.268, loss/critic2=13.599, n/ep=0, n/st=1, rew=6707.59]Epoch #47: test_reward: 7126.961689 ± 46.292174, best_reward: 7227.957862 ± 67.139972 in #45
+Epoch #48: 5001it [00:38, 128.71it/s, env_step=240000, len=1000, loss/actor=-471.967, loss/critic1=13.101, loss/critic2=13.498, n/ep=1, n/st=1, rew=6778.84]
+Epoch #49:   0%|          | 2/5000 [00:00<00:39, 124.98it/s, env_step=240002, len=1000, loss/actor=-471.933, loss/critic1=13.087, loss/critic2=13.509, n/ep=0, n/st=1, rew=6778.84]Epoch #48: test_reward: 7287.554418 ± 66.727726, best_reward: 7287.554418 ± 66.727726 in #48
+Epoch #49: 5001it [00:39, 127.63it/s, env_step=245000, len=1000, loss/actor=-475.705, loss/critic1=12.760, loss/critic2=12.884, n/ep=1, n/st=1, rew=6740.84]
+Epoch #50:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=245002, len=1000, loss/actor=-475.589, loss/critic1=13.023, loss/critic2=13.142, n/ep=0, n/st=1, rew=6740.84]Epoch #49: test_reward: 7305.562865 ± 67.038364, best_reward: 7305.562865 ± 67.038364 in #49
+Epoch #50: 5001it [00:39, 128.21it/s, env_step=250000, len=1000, loss/actor=-478.229, loss/critic1=13.013, loss/critic2=13.012, n/ep=1, n/st=1, rew=6736.08]
+Epoch #51:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=250002, len=1000, loss/actor=-477.971, loss/critic1=13.081, loss/critic2=13.132, n/ep=0, n/st=1, rew=6736.08]Epoch #50: test_reward: 7270.027879 ± 58.787016, best_reward: 7305.562865 ± 67.038364 in #49
+Epoch #51: 5001it [00:39, 127.33it/s, env_step=255000, len=1000, loss/actor=-483.140, loss/critic1=13.203, loss/critic2=13.207, n/ep=1, n/st=1, rew=6894.96]
+Epoch #52:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=255002, len=1000, loss/actor=-483.201, loss/critic1=13.221, loss/critic2=13.241, n/ep=0, n/st=1, rew=6894.96]Epoch #51: test_reward: 7449.009860 ± 95.331492, best_reward: 7449.009860 ± 95.331492 in #51
+Epoch #52: 5001it [00:39, 127.24it/s, env_step=260000, len=1000, loss/actor=-486.744, loss/critic1=13.555, loss/critic2=13.109, n/ep=1, n/st=1, rew=6969.09]
+Epoch #52: test_reward: 7231.673066 ± 60.996526, best_reward: 7449.009860 ± 95.331492 in #51
+Epoch #53: 5001it [00:39, 127.16it/s, env_step=265000, len=1000, loss/actor=-491.991, loss/critic1=12.316, loss/critic2=12.496, n/ep=1, n/st=1, rew=7138.38]
+Epoch #54:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=265002, len=1000, loss/actor=-491.793, loss/critic1=12.247, loss/critic2=12.389, n/ep=0, n/st=1, rew=7138.38]Epoch #53: test_reward: 7443.198691 ± 65.306616, best_reward: 7449.009860 ± 95.331492 in #51
+Epoch #54: 5001it [00:39, 127.34it/s, env_step=270000, len=1000, loss/actor=-494.084, loss/critic1=12.130, loss/critic2=12.082, n/ep=1, n/st=1, rew=6834.15]
+Epoch #54: test_reward: 7575.654116 ± 57.466478, best_reward: 7575.654116 ± 57.466478 in #54
+Epoch #55: 5001it [00:39, 127.26it/s, env_step=275000, len=1000, loss/actor=-498.032, loss/critic1=12.636, loss/critic2=12.384, n/ep=1, n/st=1, rew=7028.67]
+Epoch #56:   0%|          | 2/5000 [00:00<00:42, 117.66it/s, env_step=275002, len=1000, loss/actor=-498.344, loss/critic1=12.580, loss/critic2=12.397, n/ep=0, n/st=1, rew=7028.67]Epoch #55: test_reward: 7580.919607 ± 89.030762, best_reward: 7580.919607 ± 89.030762 in #55
+Epoch #56: 5001it [00:39, 127.33it/s, env_step=280000, len=1000, loss/actor=-503.997, loss/critic1=12.371, loss/critic2=12.247, n/ep=1, n/st=1, rew=7359.73]
+Epoch #56: test_reward: 7586.035786 ± 47.017916, best_reward: 7586.035786 ± 47.017916 in #56
+Epoch #57: 5001it [00:39, 127.72it/s, env_step=285000, len=1000, loss/actor=-507.446, loss/critic1=12.732, loss/critic2=13.188, n/ep=1, n/st=1, rew=7384.94]
+Epoch #58:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=285002, len=1000, loss/actor=-507.006, loss/critic1=12.667, loss/critic2=13.147, n/ep=0, n/st=1, rew=7384.94]Epoch #57: test_reward: 7647.765039 ± 62.156615, best_reward: 7647.765039 ± 62.156615 in #57
+Epoch #58: 5001it [00:39, 127.74it/s, env_step=290000, len=1000, loss/actor=-511.777, loss/critic1=13.269, loss/critic2=13.139, n/ep=1, n/st=1, rew=7319.33]
+Epoch #59:   0%|          | 2/5000 [00:00<00:42, 117.64it/s, env_step=290002, len=1000, loss/actor=-511.750, loss/critic1=13.206, loss/critic2=13.093, n/ep=0, n/st=1, rew=7319.33]Epoch #58: test_reward: 7545.788673 ± 66.980478, best_reward: 7647.765039 ± 62.156615 in #57
+Epoch #59: 5001it [00:39, 128.22it/s, env_step=295000, len=1000, loss/actor=-518.876, loss/critic1=13.398, loss/critic2=13.094, n/ep=1, n/st=1, rew=7241.55]
+Epoch #60:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=295002, len=1000, loss/actor=-518.825, loss/critic1=13.375, loss/critic2=13.019, n/ep=0, n/st=1, rew=7241.55]Epoch #59: test_reward: 7632.399957 ± 68.655161, best_reward: 7647.765039 ± 62.156615 in #57
+Epoch #60: 5001it [00:39, 126.58it/s, env_step=300000, len=1000, loss/actor=-523.255, loss/critic1=12.979, loss/critic2=12.681, n/ep=1, n/st=1, rew=7405.73]
+Epoch #61:   0%|          | 2/5000 [00:00<00:42, 117.63it/s, env_step=300002, len=1000, loss/actor=-523.288, loss/critic1=12.895, loss/critic2=12.594, n/ep=0, n/st=1, rew=7405.73]Epoch #60: test_reward: 7630.695109 ± 100.160533, best_reward: 7647.765039 ± 62.156615 in #57
+Epoch #61: 5001it [00:39, 127.54it/s, env_step=305000, len=1000, loss/actor=-524.979, loss/critic1=13.205, loss/critic2=13.044, n/ep=1, n/st=1, rew=7506.56]
+Epoch #62:   0%|          | 2/5000 [00:00<00:39, 124.99it/s, env_step=305002, len=1000, loss/actor=-524.606, loss/critic1=13.179, loss/critic2=13.013, n/ep=0, n/st=1, rew=7506.56]Epoch #61: test_reward: 7693.319488 ± 55.830218, best_reward: 7693.319488 ± 55.830218 in #61
+Epoch #62: 5001it [00:39, 125.48it/s, env_step=310000, len=1000, loss/actor=-529.967, loss/critic1=13.457, loss/critic2=13.564, n/ep=1, n/st=1, rew=7383.19]
+Epoch #63:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=310002, len=1000, loss/actor=-530.368, loss/critic1=13.397, loss/critic2=13.564, n/ep=0, n/st=1, rew=7383.19]Epoch #62: test_reward: 7720.776326 ± 75.666717, best_reward: 7720.776326 ± 75.666717 in #62
+Epoch #63: 5001it [00:39, 127.11it/s, env_step=315000, len=1000, loss/actor=-534.330, loss/critic1=12.615, loss/critic2=12.996, n/ep=1, n/st=1, rew=7470.91]
+Epoch #63: test_reward: 7750.327216 ± 98.856630, best_reward: 7750.327216 ± 98.856630 in #63
+Epoch #64: 5001it [00:39, 125.31it/s, env_step=320000, len=1000, loss/actor=-537.974, loss/critic1=13.952, loss/critic2=13.732, n/ep=1, n/st=1, rew=7519.34]
+Epoch #65:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=320002, len=1000, loss/actor=-538.347, loss/critic1=13.854, loss/critic2=13.646, n/ep=0, n/st=1, rew=7519.34]Epoch #64: test_reward: 7928.273753 ± 108.024793, best_reward: 7928.273753 ± 108.024793 in #64
+Epoch #65: 5001it [00:39, 126.74it/s, env_step=325000, len=1000, loss/actor=-546.105, loss/critic1=14.135, loss/critic2=14.337, n/ep=1, n/st=1, rew=7528.13]
+Epoch #65: test_reward: 7800.340845 ± 145.553993, best_reward: 7928.273753 ± 108.024793 in #64
+Epoch #66: 5001it [00:39, 125.81it/s, env_step=330000, len=1000, loss/actor=-544.813, loss/critic1=13.626, loss/critic2=13.737, n/ep=1, n/st=1, rew=7486.16]
+Epoch #67:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=330002, len=1000, loss/actor=-545.003, loss/critic1=13.690, loss/critic2=13.791, n/ep=0, n/st=1, rew=7486.16]Epoch #66: test_reward: 7898.376716 ± 92.219664, best_reward: 7928.273753 ± 108.024793 in #64
+Epoch #67: 5001it [00:39, 126.48it/s, env_step=335000, len=1000, loss/actor=-551.314, loss/critic1=14.697, loss/critic2=14.715, n/ep=1, n/st=1, rew=7356.07]
+Epoch #68:   0%|          | 1/5000 [00:00<00:49, 100.02it/s, env_step=335001, len=1000, loss/actor=-551.564, loss/critic1=14.653, loss/critic2=14.725, n/ep=0, n/st=1, rew=7356.07]Epoch #67: test_reward: 8002.312356 ± 125.777082, best_reward: 8002.312356 ± 125.777082 in #67
+Epoch #68: 5001it [00:39, 126.16it/s, env_step=340000, len=1000, loss/actor=-553.798, loss/critic1=15.726, loss/critic2=16.024, n/ep=1, n/st=1, rew=7698.53]
+Epoch #69:   0%|          | 2/5000 [00:00<00:47, 105.26it/s, env_step=340002, len=1000, loss/actor=-553.964, loss/critic1=15.790, loss/critic2=16.006, n/ep=0, n/st=1, rew=7698.53]Epoch #68: test_reward: 7881.468472 ± 146.904151, best_reward: 8002.312356 ± 125.777082 in #67
+Epoch #69: 5001it [00:39, 126.40it/s, env_step=345000, len=1000, loss/actor=-558.471, loss/critic1=14.508, loss/critic2=14.331, n/ep=1, n/st=1, rew=7755.51]
+Epoch #69: test_reward: 7766.979858 ± 87.051343, best_reward: 8002.312356 ± 125.777082 in #67
+Epoch #70: 5001it [00:39, 126.64it/s, env_step=350000, len=1000, loss/actor=-563.543, loss/critic1=13.935, loss/critic2=13.871, n/ep=1, n/st=1, rew=7646.55]
+Epoch #70: test_reward: 8137.328536 ± 80.968674, best_reward: 8137.328536 ± 80.968674 in #70
+Epoch #71: 5001it [00:39, 126.89it/s, env_step=355000, len=1000, loss/actor=-562.510, loss/critic1=14.417, loss/critic2=14.274, n/ep=1, n/st=1, rew=7811.73]
+Epoch #71: test_reward: 8006.517011 ± 100.444044, best_reward: 8137.328536 ± 80.968674 in #70
+Epoch #72: 5001it [00:39, 127.34it/s, env_step=360000, len=1000, loss/actor=-569.911, loss/critic1=15.166, loss/critic2=15.335, n/ep=1, n/st=1, rew=7789.67]
+Epoch #72: test_reward: 8151.948848 ± 114.813516, best_reward: 8151.948848 ± 114.813516 in #72
+Epoch #73: 5001it [00:39, 126.43it/s, env_step=365000, len=1000, loss/actor=-572.704, loss/critic1=14.329, loss/critic2=14.449, n/ep=1, n/st=1, rew=7753.15]
+Epoch #73: test_reward: 8121.297903 ± 75.730267, best_reward: 8151.948848 ± 114.813516 in #72
+Epoch #74: 5001it [00:39, 127.92it/s, env_step=370000, len=1000, loss/actor=-576.399, loss/critic1=14.435, loss/critic2=14.380, n/ep=1, n/st=1, rew=7985.82]
+Epoch #75:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=370002, len=1000, loss/actor=-576.344, loss/critic1=14.466, loss/critic2=14.412, n/ep=0, n/st=1, rew=7985.82]Epoch #74: test_reward: 8104.242686 ± 128.665671, best_reward: 8151.948848 ± 114.813516 in #72
+Epoch #75: 5001it [00:39, 128.12it/s, env_step=375000, len=1000, loss/actor=-579.574, loss/critic1=14.188, loss/critic2=14.767, n/ep=1, n/st=1, rew=8124.02]
+Epoch #75: test_reward: 8246.932413 ± 90.628351, best_reward: 8246.932413 ± 90.628351 in #75
+Epoch #76: 5001it [00:39, 127.84it/s, env_step=380000, len=1000, loss/actor=-584.358, loss/critic1=14.032, loss/critic2=14.294, n/ep=1, n/st=1, rew=7779.48]
+Epoch #77:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=380002, len=1000, loss/actor=-584.202, loss/critic1=14.054, loss/critic2=14.299, n/ep=0, n/st=1, rew=7779.48]Epoch #76: test_reward: 8335.046293 ± 109.705072, best_reward: 8335.046293 ± 109.705072 in #76
+Epoch #77: 5001it [00:39, 126.37it/s, env_step=385000, len=1000, loss/actor=-585.728, loss/critic1=14.133, loss/critic2=14.645, n/ep=1, n/st=1, rew=7816.11]
+Epoch #78:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=385002, len=1000, loss/actor=-585.387, loss/critic1=14.213, loss/critic2=14.679, n/ep=0, n/st=1, rew=7816.11]Epoch #77: test_reward: 8281.039336 ± 103.010394, best_reward: 8335.046293 ± 109.705072 in #76
+Epoch #78: 5001it [00:38, 128.59it/s, env_step=390000, len=1000, loss/actor=-588.583, loss/critic1=15.183, loss/critic2=15.278, n/ep=1, n/st=1, rew=7799.96]
+Epoch #79:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=390002, len=1000, loss/actor=-588.581, loss/critic1=15.182, loss/critic2=15.283, n/ep=0, n/st=1, rew=7799.96]Epoch #78: test_reward: 8215.343626 ± 75.972410, best_reward: 8335.046293 ± 109.705072 in #76
+Epoch #79: 5001it [00:38, 128.36it/s, env_step=395000, len=1000, loss/actor=-591.460, loss/critic1=14.569, loss/critic2=14.353, n/ep=1, n/st=1, rew=7705.36]
+Epoch #80:   0%|          | 2/5000 [00:00<00:42, 117.64it/s, env_step=395002, len=1000, loss/actor=-591.553, loss/critic1=14.403, loss/critic2=14.191, n/ep=0, n/st=1, rew=7705.36]Epoch #79: test_reward: 8262.808613 ± 107.711372, best_reward: 8335.046293 ± 109.705072 in #76
+Epoch #80: 5001it [00:38, 128.51it/s, env_step=400000, len=1000, loss/actor=-595.196, loss/critic1=14.750, loss/critic2=14.776, n/ep=1, n/st=1, rew=8006.32]
+Epoch #81:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=400002, len=1000, loss/actor=-595.663, loss/critic1=14.779, loss/critic2=14.846, n/ep=0, n/st=1, rew=8006.32]Epoch #80: test_reward: 8385.827552 ± 119.482411, best_reward: 8385.827552 ± 119.482411 in #80
+Epoch #81: 5001it [00:39, 127.55it/s, env_step=405000, len=1000, loss/actor=-600.085, loss/critic1=14.972, loss/critic2=15.124, n/ep=1, n/st=1, rew=8374.16]
+Epoch #82:   0%|          | 2/5000 [00:00<00:42, 117.63it/s, env_step=405002, len=1000, loss/actor=-600.213, loss/critic1=14.960, loss/critic2=15.107, n/ep=0, n/st=1, rew=8374.16]Epoch #81: test_reward: 8553.267792 ± 74.900737, best_reward: 8553.267792 ± 74.900737 in #81
+Epoch #82: 5001it [00:38, 129.02it/s, env_step=410000, len=1000, loss/actor=-605.242, loss/critic1=14.612, loss/critic2=14.522, n/ep=1, n/st=1, rew=8140.47]
+Epoch #83:   0%|          | 2/5000 [00:00<00:42, 117.66it/s, env_step=410002, len=1000, loss/actor=-604.706, loss/critic1=14.643, loss/critic2=14.534, n/ep=0, n/st=1, rew=8140.47]Epoch #82: test_reward: 8563.915972 ± 60.368290, best_reward: 8563.915972 ± 60.368290 in #82
+Epoch #83: 5001it [00:38, 128.43it/s, env_step=415000, len=1000, loss/actor=-601.963, loss/critic1=14.845, loss/critic2=14.672, n/ep=1, n/st=1, rew=8251.20]
+Epoch #83: test_reward: 8346.315522 ± 75.662178, best_reward: 8563.915972 ± 60.368290 in #82
+Epoch #84: 5001it [00:38, 128.85it/s, env_step=420000, len=1000, loss/actor=-607.000, loss/critic1=15.141, loss/critic2=15.180, n/ep=1, n/st=1, rew=8212.29]
+Epoch #85:   0%|          | 2/5000 [00:00<00:47, 105.26it/s, env_step=420002, len=1000, loss/actor=-607.075, loss/critic1=15.154, loss/critic2=15.148, n/ep=0, n/st=1, rew=8212.29]Epoch #84: test_reward: 8528.235550 ± 70.730473, best_reward: 8563.915972 ± 60.368290 in #82
+Epoch #85: 5001it [00:38, 128.69it/s, env_step=425000, len=1000, loss/actor=-610.575, loss/critic1=15.547, loss/critic2=15.395, n/ep=1, n/st=1, rew=8278.09]
+Epoch #86:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=425002, len=1000, loss/actor=-611.188, loss/critic1=15.646, loss/critic2=15.532, n/ep=0, n/st=1, rew=8278.09]Epoch #85: test_reward: 8594.516445 ± 98.643055, best_reward: 8594.516445 ± 98.643055 in #85
+Epoch #86: 5001it [00:38, 128.29it/s, env_step=430000, len=1000, loss/actor=-615.108, loss/critic1=15.095, loss/critic2=15.422, n/ep=1, n/st=1, rew=8324.37]
+Epoch #86: test_reward: 8705.450375 ± 123.378223, best_reward: 8705.450375 ± 123.378223 in #86
+Epoch #87: 5001it [00:38, 130.72it/s, env_step=435000, len=1000, loss/actor=-617.921, loss/critic1=15.354, loss/critic2=15.616, n/ep=1, n/st=1, rew=8357.87]
+Epoch #88:   0%|          | 2/5000 [00:00<00:42, 117.64it/s, env_step=435002, len=1000, loss/actor=-617.503, loss/critic1=15.368, loss/critic2=15.616, n/ep=0, n/st=1, rew=8357.87]Epoch #87: test_reward: 8903.923405 ± 98.197492, best_reward: 8903.923405 ± 98.197492 in #87
+Epoch #88: 5001it [00:38, 129.26it/s, env_step=440000, len=1000, loss/actor=-621.729, loss/critic1=15.040, loss/critic2=15.343, n/ep=1, n/st=1, rew=8164.65]
+Epoch #89:   0%|          | 2/5000 [00:00<00:42, 117.64it/s, env_step=440002, len=1000, loss/actor=-621.575, loss/critic1=14.989, loss/critic2=15.264, n/ep=0, n/st=1, rew=8164.65]Epoch #88: test_reward: 8743.167303 ± 147.443226, best_reward: 8903.923405 ± 98.197492 in #87
+Epoch #89: 5001it [00:38, 129.01it/s, env_step=445000, len=1000, loss/actor=-622.637, loss/critic1=16.008, loss/critic2=16.525, n/ep=1, n/st=1, rew=8289.34]
+Epoch #90:   0%|          | 2/5000 [00:00<00:37, 133.32it/s, env_step=445002, len=1000, loss/actor=-622.398, loss/critic1=15.926, loss/critic2=16.484, n/ep=0, n/st=1, rew=8289.34]Epoch #89: test_reward: 8774.020696 ± 88.766601, best_reward: 8903.923405 ± 98.197492 in #87
+Epoch #90: 5001it [00:38, 128.88it/s, env_step=450000, len=1000, loss/actor=-627.548, loss/critic1=16.662, loss/critic2=16.454, n/ep=1, n/st=1, rew=8249.22]
+Epoch #91:   0%|          | 3/5000 [00:00<00:41, 120.01it/s, env_step=450003, len=1000, loss/actor=-627.401, loss/critic1=16.688, loss/critic2=16.478, n/ep=0, n/st=1, rew=8249.22]Epoch #90: test_reward: 8748.357323 ± 91.315176, best_reward: 8903.923405 ± 98.197492 in #87
+Epoch #91: 5001it [00:38, 130.51it/s, env_step=455000, len=1000, loss/actor=-628.996, loss/critic1=16.519, loss/critic2=16.363, n/ep=1, n/st=1, rew=8562.71]
+Epoch #92:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=455002, len=1000, loss/actor=-628.997, loss/critic1=16.378, loss/critic2=16.279, n/ep=0, n/st=1, rew=8562.71]Epoch #91: test_reward: 8921.795491 ± 185.324916, best_reward: 8921.795491 ± 185.324916 in #91
+Epoch #92: 5001it [00:39, 128.10it/s, env_step=460000, len=1000, loss/actor=-632.987, loss/critic1=15.390, loss/critic2=15.760, n/ep=1, n/st=1, rew=8518.52]
+Epoch #93:   0%|          | 2/5000 [00:00<00:39, 124.98it/s, env_step=460002, len=1000, loss/actor=-632.337, loss/critic1=15.423, loss/critic2=15.792, n/ep=0, n/st=1, rew=8518.52]Epoch #92: test_reward: 8943.685148 ± 71.080937, best_reward: 8943.685148 ± 71.080937 in #92
+Epoch #93: 5001it [00:38, 128.32it/s, env_step=465000, len=1000, loss/actor=-637.718, loss/critic1=15.894, loss/critic2=15.799, n/ep=1, n/st=1, rew=8447.69]
+Epoch #94:   0%|          | 2/5000 [00:00<00:42, 117.64it/s, env_step=465002, len=1000, loss/actor=-637.358, loss/critic1=15.865, loss/critic2=15.818, n/ep=0, n/st=1, rew=8447.69]Epoch #93: test_reward: 8860.000735 ± 99.184116, best_reward: 8943.685148 ± 71.080937 in #92
+Epoch #94: 5001it [00:39, 128.05it/s, env_step=470000, len=1000, loss/actor=-638.562, loss/critic1=16.591, loss/critic2=16.549, n/ep=1, n/st=1, rew=8416.31]
+Epoch #95:   0%|          | 2/5000 [00:00<00:39, 124.99it/s, env_step=470002, len=1000, loss/actor=-638.095, loss/critic1=16.472, loss/critic2=16.440, n/ep=0, n/st=1, rew=8416.31]Epoch #94: test_reward: 8759.944010 ± 93.953737, best_reward: 8943.685148 ± 71.080937 in #92
+Epoch #95: 5001it [00:38, 129.22it/s, env_step=475000, len=1000, loss/actor=-638.874, loss/critic1=16.823, loss/critic2=17.042, n/ep=1, n/st=1, rew=8633.64]
+Epoch #95: test_reward: 8986.532219 ± 66.878832, best_reward: 8986.532219 ± 66.878832 in #95
+Epoch #96: 5001it [00:39, 126.82it/s, env_step=480000, len=1000, loss/actor=-642.728, loss/critic1=16.721, loss/critic2=16.546, n/ep=1, n/st=1, rew=8578.33]
+Epoch #96: test_reward: 8952.914280 ± 76.542016, best_reward: 8986.532219 ± 66.878832 in #95
+Epoch #97: 5001it [00:39, 126.77it/s, env_step=485000, len=1000, loss/actor=-644.035, loss/critic1=16.342, loss/critic2=16.964, n/ep=1, n/st=1, rew=8692.43]
+Epoch #98:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=485002, len=1000, loss/actor=-644.223, loss/critic1=16.304, loss/critic2=16.851, n/ep=0, n/st=1, rew=8692.43]Epoch #97: test_reward: 9087.900346 ± 131.035538, best_reward: 9087.900346 ± 131.035538 in #97
+Epoch #98: 5001it [00:39, 127.77it/s, env_step=490000, len=1000, loss/actor=-649.042, loss/critic1=17.034, loss/critic2=17.008, n/ep=1, n/st=1, rew=8576.72]
+Epoch #99:   0%|          | 2/5000 [00:00<00:39, 124.99it/s, env_step=490002, len=1000, loss/actor=-649.214, loss/critic1=17.124, loss/critic2=17.026, n/ep=0, n/st=1, rew=8576.72]Epoch #98: test_reward: 9049.722253 ± 55.635256, best_reward: 9087.900346 ± 131.035538 in #97
+Epoch #99: 5001it [00:38, 128.85it/s, env_step=495000, len=1000, loss/actor=-653.031, loss/critic1=17.661, loss/critic2=17.441, n/ep=1, n/st=1, rew=8598.67]
+Epoch #99: test_reward: 9081.040638 ± 60.334541, best_reward: 9087.900346 ± 131.035538 in #97
+Epoch #100: 5001it [00:39, 125.91it/s, env_step=500000, len=1000, loss/actor=-654.899, loss/critic1=16.494, loss/critic2=16.666, n/ep=1, n/st=1, rew=8692.84]
+Epoch #101:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=500002, len=1000, loss/actor=-654.976, loss/critic1=16.540, loss/critic2=16.740, n/ep=0, n/st=1, rew=8692.84]Epoch #100: test_reward: 9016.697489 ± 258.282099, best_reward: 9087.900346 ± 131.035538 in #97
+Epoch #101: 5001it [00:39, 126.28it/s, env_step=505000, len=1000, loss/actor=-656.363, loss/critic1=17.935, loss/critic2=18.600, n/ep=1, n/st=1, rew=8486.14]
+Epoch #102:   0%|          | 2/5000 [00:00<00:47, 105.27it/s, env_step=505002, len=1000, loss/actor=-656.348, loss/critic1=17.849, loss/critic2=18.557, n/ep=0, n/st=1, rew=8486.14]Epoch #101: test_reward: 9002.230268 ± 131.893812, best_reward: 9087.900346 ± 131.035538 in #97
+Epoch #102: 5001it [00:39, 126.14it/s, env_step=510000, len=1000, loss/actor=-662.113, loss/critic1=16.655, loss/critic2=16.729, n/ep=1, n/st=1, rew=8741.77]
+Epoch #102: test_reward: 9092.107189 ± 109.342529, best_reward: 9092.107189 ± 109.342529 in #102
+Epoch #103: 5001it [00:39, 127.89it/s, env_step=515000, len=1000, loss/actor=-660.935, loss/critic1=17.579, loss/critic2=17.850, n/ep=1, n/st=1, rew=8695.24]
+Epoch #103: test_reward: 9093.594261 ± 155.412074, best_reward: 9093.594261 ± 155.412074 in #103
+Epoch #104: 5001it [00:39, 126.89it/s, env_step=520000, len=1000, loss/actor=-663.669, loss/critic1=17.464, loss/critic2=17.570, n/ep=1, n/st=1, rew=8765.99]
+Epoch #104: test_reward: 9097.918853 ± 61.398779, best_reward: 9097.918853 ± 61.398779 in #104
+Epoch #105: 5001it [00:39, 126.43it/s, env_step=525000, len=1000, loss/actor=-667.534, loss/critic1=17.649, loss/critic2=17.511, n/ep=1, n/st=1, rew=8810.59]
+Epoch #105: test_reward: 9062.286344 ± 93.685169, best_reward: 9097.918853 ± 61.398779 in #104
+Epoch #106: 5001it [00:39, 127.78it/s, env_step=530000, len=1000, loss/actor=-671.919, loss/critic1=18.770, loss/critic2=18.625, n/ep=1, n/st=1, rew=8827.64]
+Epoch #106: test_reward: 9272.786823 ± 97.021403, best_reward: 9272.786823 ± 97.021403 in #106
+Epoch #107: 5001it [00:39, 126.70it/s, env_step=535000, len=1000, loss/actor=-670.068, loss/critic1=18.159, loss/critic2=18.061, n/ep=1, n/st=1, rew=8922.14]
+Epoch #108:   0%|          | 3/5000 [00:00<00:41, 120.00it/s, env_step=535003, len=1000, loss/actor=-670.892, loss/critic1=18.244, loss/critic2=18.114, n/ep=0, n/st=1, rew=8922.14]Epoch #107: test_reward: 9306.830677 ± 78.352655, best_reward: 9306.830677 ± 78.352655 in #107
+Epoch #108: 5001it [00:39, 126.55it/s, env_step=540000, len=1000, loss/actor=-676.990, loss/critic1=17.893, loss/critic2=17.494, n/ep=1, n/st=1, rew=8966.08]
+Epoch #109:   0%|          | 2/5000 [00:00<00:44, 111.10it/s, env_step=540002, len=1000, loss/actor=-677.217, loss/critic1=17.998, loss/critic2=17.638, n/ep=0, n/st=1, rew=8966.08]Epoch #108: test_reward: 9152.576210 ± 179.348601, best_reward: 9306.830677 ± 78.352655 in #107
+Epoch #109: 5001it [00:39, 125.96it/s, env_step=545000, len=1000, loss/actor=-677.431, loss/critic1=17.440, loss/critic2=17.217, n/ep=1, n/st=1, rew=8921.37]
+Epoch #110:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=545002, len=1000, loss/actor=-677.270, loss/critic1=17.399, loss/critic2=17.146, n/ep=0, n/st=1, rew=8921.37]Epoch #109: test_reward: 9022.760302 ± 79.814801, best_reward: 9306.830677 ± 78.352655 in #107
+Epoch #110: 5001it [00:39, 127.56it/s, env_step=550000, len=1000, loss/actor=-679.038, loss/critic1=18.594, loss/critic2=18.679, n/ep=1, n/st=1, rew=9096.58]
+Epoch #111:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=550002, len=1000, loss/actor=-678.842, loss/critic1=18.514, loss/critic2=18.654, n/ep=0, n/st=1, rew=9096.58]Epoch #110: test_reward: 9435.604866 ± 103.327962, best_reward: 9435.604866 ± 103.327962 in #110
+Epoch #111: 5001it [00:39, 126.63it/s, env_step=555000, len=1000, loss/actor=-680.465, loss/critic1=18.287, loss/critic2=18.540, n/ep=1, n/st=1, rew=9108.70]
+Epoch #111: test_reward: 9285.965950 ± 128.790967, best_reward: 9435.604866 ± 103.327962 in #110
+Epoch #112: 5001it [00:39, 126.38it/s, env_step=560000, len=1000, loss/actor=-683.632, loss/critic1=19.353, loss/critic2=19.147, n/ep=1, n/st=1, rew=8940.05]
+Epoch #113:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=560002, len=1000, loss/actor=-683.596, loss/critic1=19.329, loss/critic2=19.114, n/ep=0, n/st=1, rew=8940.05]Epoch #112: test_reward: 9560.568763 ± 115.607230, best_reward: 9560.568763 ± 115.607230 in #112
+Epoch #113: 5001it [00:39, 126.01it/s, env_step=565000, len=1000, loss/actor=-687.417, loss/critic1=19.362, loss/critic2=19.544, n/ep=1, n/st=1, rew=8951.83]
+Epoch #114:   0%|          | 3/5000 [00:00<00:43, 115.39it/s, env_step=565003, len=1000, loss/actor=-687.273, loss/critic1=19.573, loss/critic2=19.765, n/ep=0, n/st=1, rew=8951.83]Epoch #113: test_reward: 9547.098155 ± 179.002650, best_reward: 9560.568763 ± 115.607230 in #112
+Epoch #114: 5001it [00:39, 127.54it/s, env_step=570000, len=1000, loss/actor=-689.891, loss/critic1=19.346, loss/critic2=18.725, n/ep=1, n/st=1, rew=9237.09]
+Epoch #114: test_reward: 9358.561201 ± 102.901613, best_reward: 9560.568763 ± 115.607230 in #112
+Epoch #115: 5001it [00:39, 126.71it/s, env_step=575000, len=1000, loss/actor=-690.336, loss/critic1=18.636, loss/critic2=18.243, n/ep=1, n/st=1, rew=9088.45]
+Epoch #115: test_reward: 9589.043828 ± 72.715905, best_reward: 9589.043828 ± 72.715905 in #115
+Epoch #116: 5001it [00:39, 126.38it/s, env_step=580000, len=1000, loss/actor=-698.016, loss/critic1=18.825, loss/critic2=18.718, n/ep=1, n/st=1, rew=9018.66]
+Epoch #117:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=580002, len=1000, loss/actor=-698.266, loss/critic1=18.853, loss/critic2=18.737, n/ep=0, n/st=1, rew=9018.66]Epoch #116: test_reward: 9606.954259 ± 99.748317, best_reward: 9606.954259 ± 99.748317 in #116
+Epoch #117: 5001it [00:39, 126.00it/s, env_step=585000, len=1000, loss/actor=-698.188, loss/critic1=18.750, loss/critic2=18.727, n/ep=1, n/st=1, rew=9175.46]
+Epoch #118:   0%|          | 2/5000 [00:00<00:47, 105.27it/s, env_step=585002, len=1000, loss/actor=-698.127, loss/critic1=18.777, loss/critic2=18.722, n/ep=0, n/st=1, rew=9175.46]Epoch #117: test_reward: 9367.460573 ± 43.839482, best_reward: 9606.954259 ± 99.748317 in #116
+Epoch #118: 5001it [00:39, 126.37it/s, env_step=590000, len=1000, loss/actor=-699.058, loss/critic1=18.759, loss/critic2=19.209, n/ep=1, n/st=1, rew=8960.35]
+Epoch #119:   0%|          | 2/5000 [00:00<00:39, 124.98it/s, env_step=590002, len=1000, loss/actor=-698.989, loss/critic1=18.822, loss/critic2=19.235, n/ep=0, n/st=1, rew=8960.35]Epoch #118: test_reward: 9716.727871 ± 103.454307, best_reward: 9716.727871 ± 103.454307 in #118
+Epoch #119: 5001it [00:39, 126.09it/s, env_step=595000, len=1000, loss/actor=-701.473, loss/critic1=18.966, loss/critic2=19.523, n/ep=1, n/st=1, rew=9245.85]
+Epoch #119: test_reward: 9677.554145 ± 106.261388, best_reward: 9716.727871 ± 103.454307 in #118
+Epoch #120: 5001it [00:39, 125.93it/s, env_step=600000, len=1000, loss/actor=-702.878, loss/critic1=19.430, loss/critic2=19.143, n/ep=1, n/st=1, rew=9171.44]
+Epoch #121:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=600002, len=1000, loss/actor=-702.629, loss/critic1=19.307, loss/critic2=19.012, n/ep=0, n/st=1, rew=9171.44]Epoch #120: test_reward: 9597.863919 ± 95.201087, best_reward: 9716.727871 ± 103.454307 in #118
+Epoch #121: 5001it [00:39, 125.95it/s, env_step=605000, len=1000, loss/actor=-703.196, loss/critic1=20.030, loss/critic2=18.981, n/ep=1, n/st=1, rew=9193.27]
+Epoch #122:   0%|          | 2/5000 [00:00<00:42, 117.63it/s, env_step=605002, len=1000, loss/actor=-702.943, loss/critic1=20.010, loss/critic2=19.040, n/ep=0, n/st=1, rew=9193.27]Epoch #121: test_reward: 9320.235517 ± 102.326861, best_reward: 9716.727871 ± 103.454307 in #118
+Epoch #122: 5001it [00:39, 125.56it/s, env_step=610000, len=1000, loss/actor=-706.238, loss/critic1=17.799, loss/critic2=18.329, n/ep=1, n/st=1, rew=9584.48]
+Epoch #123:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=610002, len=1000, loss/actor=-706.205, loss/critic1=17.863, loss/critic2=18.405, n/ep=0, n/st=1, rew=9584.48]Epoch #122: test_reward: 9628.046940 ± 152.593327, best_reward: 9716.727871 ± 103.454307 in #118
+Epoch #123: 5001it [00:39, 126.45it/s, env_step=615000, len=1000, loss/actor=-711.994, loss/critic1=19.202, loss/critic2=18.864, n/ep=1, n/st=1, rew=9184.92]
+Epoch #123: test_reward: 9833.951411 ± 135.232371, best_reward: 9833.951411 ± 135.232371 in #123
+Epoch #124: 5001it [00:40, 124.44it/s, env_step=620000, len=1000, loss/actor=-712.675, loss/critic1=20.899, loss/critic2=20.198, n/ep=1, n/st=1, rew=8954.27]
+Epoch #124: test_reward: 9362.200620 ± 132.950874, best_reward: 9833.951411 ± 135.232371 in #123
+Epoch #125: 5001it [00:39, 127.05it/s, env_step=625000, len=1000, loss/actor=-714.129, loss/critic1=19.163, loss/critic2=19.356, n/ep=1, n/st=1, rew=9065.46]
+Epoch #125: test_reward: 9816.907738 ± 89.857710, best_reward: 9833.951411 ± 135.232371 in #123
+Epoch #126: 5001it [00:39, 125.60it/s, env_step=630000, len=1000, loss/actor=-713.622, loss/critic1=20.320, loss/critic2=19.770, n/ep=1, n/st=1, rew=9014.84]
+Epoch #126: test_reward: 9851.780962 ± 121.540844, best_reward: 9851.780962 ± 121.540844 in #126
+Epoch #127: 5001it [00:39, 125.62it/s, env_step=635000, len=1000, loss/actor=-719.641, loss/critic1=20.917, loss/critic2=20.546, n/ep=1, n/st=1, rew=9094.45]
+Epoch #127: test_reward: 9526.125512 ± 96.605393, best_reward: 9851.780962 ± 121.540844 in #126
+Epoch #128: 5001it [00:40, 124.04it/s, env_step=640000, len=1000, loss/actor=-718.921, loss/critic1=20.346, loss/critic2=19.788, n/ep=1, n/st=1, rew=9371.71]
+Epoch #129:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=640002, len=1000, loss/actor=-718.599, loss/critic1=20.378, loss/critic2=19.764, n/ep=0, n/st=1, rew=9371.71]Epoch #128: test_reward: 9860.318609 ± 112.155339, best_reward: 9860.318609 ± 112.155339 in #128
+Epoch #129: 5001it [00:39, 125.94it/s, env_step=645000, len=1000, loss/actor=-722.376, loss/critic1=20.700, loss/critic2=20.146, n/ep=1, n/st=1, rew=9331.45]
+Epoch #129: test_reward: 10005.217949 ± 162.427610, best_reward: 10005.217949 ± 162.427610 in #129
+Epoch #130: 5001it [00:39, 125.37it/s, env_step=650000, len=1000, loss/actor=-722.291, loss/critic1=20.048, loss/critic2=20.044, n/ep=1, n/st=1, rew=9379.09]
+Epoch #130: test_reward: 9934.533702 ± 97.763759, best_reward: 10005.217949 ± 162.427610 in #129
+Epoch #131: 5001it [00:40, 124.60it/s, env_step=655000, len=1000, loss/actor=-723.819, loss/critic1=21.641, loss/critic2=21.905, n/ep=1, n/st=1, rew=9391.52]
+Epoch #132:   0%|          | 2/5000 [00:00<00:42, 117.66it/s, env_step=655002, len=1000, loss/actor=-724.175, loss/critic1=21.747, loss/critic2=22.008, n/ep=0, n/st=1, rew=9391.52]Epoch #131: test_reward: 9676.062065 ± 152.302393, best_reward: 10005.217949 ± 162.427610 in #129
+Epoch #132: 5001it [00:40, 124.68it/s, env_step=660000, len=1000, loss/actor=-729.947, loss/critic1=20.826, loss/critic2=20.358, n/ep=1, n/st=1, rew=9377.36]
+Epoch #133:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=660002, len=1000, loss/actor=-729.942, loss/critic1=20.837, loss/critic2=20.309, n/ep=0, n/st=1, rew=9377.36]Epoch #132: test_reward: 9369.536191 ± 123.866473, best_reward: 10005.217949 ± 162.427610 in #129
+Epoch #133: 5001it [00:39, 125.45it/s, env_step=665000, len=1000, loss/actor=-728.008, loss/critic1=20.879, loss/critic2=20.735, n/ep=1, n/st=1, rew=9529.59]
+Epoch #134:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=665002, len=1000, loss/actor=-728.426, loss/critic1=20.962, loss/critic2=20.795, n/ep=0, n/st=1, rew=9529.59]Epoch #133: test_reward: 9917.390747 ± 90.385024, best_reward: 10005.217949 ± 162.427610 in #129
+Epoch #134: 5001it [00:39, 125.59it/s, env_step=670000, len=1000, loss/actor=-730.788, loss/critic1=20.659, loss/critic2=20.740, n/ep=1, n/st=1, rew=9465.22]
+Epoch #135:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=670002, len=1000, loss/actor=-731.125, loss/critic1=20.562, loss/critic2=20.645, n/ep=0, n/st=1, rew=9465.22]Epoch #134: test_reward: 9743.784137 ± 115.803804, best_reward: 10005.217949 ± 162.427610 in #129
+Epoch #135: 5001it [00:40, 122.49it/s, env_step=675000, len=1000, loss/actor=-730.240, loss/critic1=20.446, loss/critic2=20.423, n/ep=1, n/st=1, rew=9508.44]
+Epoch #136:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=675002, len=1000, loss/actor=-730.424, loss/critic1=20.525, loss/critic2=20.490, n/ep=0, n/st=1, rew=9508.44]Epoch #135: test_reward: 9854.679160 ± 102.919029, best_reward: 10005.217949 ± 162.427610 in #129
+Epoch #136: 5001it [00:39, 125.82it/s, env_step=680000, len=1000, loss/actor=-736.262, loss/critic1=19.342, loss/critic2=19.029, n/ep=1, n/st=1, rew=9400.66]
+Epoch #137:   0%|          | 3/5000 [00:00<00:39, 125.00it/s, env_step=680003, len=1000, loss/actor=-736.257, loss/critic1=19.380, loss/critic2=18.998, n/ep=0, n/st=1, rew=9400.66]Epoch #136: test_reward: 10012.192853 ± 109.321291, best_reward: 10012.192853 ± 109.321291 in #136
+Epoch #137: 5001it [00:39, 125.64it/s, env_step=685000, len=1000, loss/actor=-736.806, loss/critic1=20.604, loss/critic2=20.583, n/ep=1, n/st=1, rew=9400.20]
+Epoch #138:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=685002, len=1000, loss/actor=-736.999, loss/critic1=20.557, loss/critic2=20.530, n/ep=0, n/st=1, rew=9400.20]Epoch #137: test_reward: 10027.194228 ± 118.845992, best_reward: 10027.194228 ± 118.845992 in #137
+Epoch #138: 5001it [00:39, 125.64it/s, env_step=690000, len=1000, loss/actor=-736.770, loss/critic1=20.361, loss/critic2=20.091, n/ep=1, n/st=1, rew=9334.54]
+Epoch #139:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=690002, len=1000, loss/actor=-736.902, loss/critic1=20.317, loss/critic2=20.064, n/ep=0, n/st=1, rew=9334.54]Epoch #138: test_reward: 9960.854118 ± 142.778612, best_reward: 10027.194228 ± 118.845992 in #137
+Epoch #139: 5001it [00:40, 124.02it/s, env_step=695000, len=1000, loss/actor=-739.252, loss/critic1=20.171, loss/critic2=19.786, n/ep=1, n/st=1, rew=9456.28]
+Epoch #139: test_reward: 9924.865944 ± 93.166173, best_reward: 10027.194228 ± 118.845992 in #137
+Epoch #140: 5001it [00:39, 125.23it/s, env_step=700000, len=1000, loss/actor=-741.838, loss/critic1=21.296, loss/critic2=21.194, n/ep=1, n/st=1, rew=9528.75]
+Epoch #141:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=700002, len=1000, loss/actor=-742.001, loss/critic1=21.199, loss/critic2=21.186, n/ep=0, n/st=1, rew=9528.75]Epoch #140: test_reward: 10046.430576 ± 107.140687, best_reward: 10046.430576 ± 107.140687 in #140
+Epoch #141: 5001it [00:40, 124.15it/s, env_step=705000, len=1000, loss/actor=-745.207, loss/critic1=20.138, loss/critic2=19.916, n/ep=1, n/st=1, rew=9481.78]
+Epoch #142:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=705002, len=1000, loss/actor=-745.406, loss/critic1=19.997, loss/critic2=19.816, n/ep=0, n/st=1, rew=9481.78]Epoch #141: test_reward: 9805.503351 ± 90.757560, best_reward: 10046.430576 ± 107.140687 in #140
+Epoch #142: 5001it [00:40, 123.83it/s, env_step=710000, len=1000, loss/actor=-743.974, loss/critic1=20.229, loss/critic2=19.766, n/ep=1, n/st=1, rew=9639.85]
+Epoch #143:   0%|          | 2/5000 [00:00<00:42, 117.63it/s, env_step=710002, len=1000, loss/actor=-743.728, loss/critic1=20.297, loss/critic2=19.761, n/ep=0, n/st=1, rew=9639.85]Epoch #142: test_reward: 10088.853851 ± 160.283546, best_reward: 10088.853851 ± 160.283546 in #142
+Epoch #143: 5001it [00:40, 123.55it/s, env_step=715000, len=1000, loss/actor=-747.378, loss/critic1=20.285, loss/critic2=20.575, n/ep=1, n/st=1, rew=9486.46]
+Epoch #143: test_reward: 9916.627300 ± 122.237771, best_reward: 10088.853851 ± 160.283546 in #142
+Epoch #144: 5001it [00:40, 124.59it/s, env_step=720000, len=1000, loss/actor=-747.902, loss/critic1=21.346, loss/critic2=21.372, n/ep=1, n/st=1, rew=9542.78]
+Epoch #144: test_reward: 9979.124140 ± 101.907378, best_reward: 10088.853851 ± 160.283546 in #142
+Epoch #145: 5001it [00:40, 124.08it/s, env_step=725000, len=1000, loss/actor=-749.127, loss/critic1=21.529, loss/critic2=21.673, n/ep=1, n/st=1, rew=9602.08]
+Epoch #146:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=725002, len=1000, loss/actor=-749.138, loss/critic1=21.698, loss/critic2=21.739, n/ep=0, n/st=1, rew=9602.08]Epoch #145: test_reward: 10209.107406 ± 138.239302, best_reward: 10209.107406 ± 138.239302 in #145
+Epoch #146: 5001it [00:40, 123.74it/s, env_step=730000, len=1000, loss/actor=-751.541, loss/critic1=20.939, loss/critic2=21.222, n/ep=1, n/st=1, rew=9590.02]
+Epoch #147:   0%|          | 2/5000 [00:00<00:42, 117.67it/s, env_step=730002, len=1000, loss/actor=-751.940, loss/critic1=20.897, loss/critic2=21.115, n/ep=0, n/st=1, rew=9590.02]Epoch #146: test_reward: 10044.939164 ± 60.068095, best_reward: 10209.107406 ± 138.239302 in #145
+Epoch #147: 5001it [00:40, 124.60it/s, env_step=735000, len=1000, loss/actor=-751.106, loss/critic1=20.503, loss/critic2=20.716, n/ep=1, n/st=1, rew=9603.57]
+Epoch #148:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=735002, len=1000, loss/actor=-751.156, loss/critic1=20.655, loss/critic2=20.880, n/ep=0, n/st=1, rew=9603.57]Epoch #147: test_reward: 10147.995153 ± 94.016616, best_reward: 10209.107406 ± 138.239302 in #145
+Epoch #148: 5001it [00:40, 124.50it/s, env_step=740000, len=1000, loss/actor=-752.003, loss/critic1=19.936, loss/critic2=20.005, n/ep=1, n/st=1, rew=9635.26]
+Epoch #149:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=740002, len=1000, loss/actor=-751.857, loss/critic1=19.943, loss/critic2=20.027, n/ep=0, n/st=1, rew=9635.26]Epoch #148: test_reward: 10294.643116 ± 95.198903, best_reward: 10294.643116 ± 95.198903 in #148
+Epoch #149: 5001it [00:40, 124.71it/s, env_step=745000, len=1000, loss/actor=-755.011, loss/critic1=21.277, loss/critic2=20.918, n/ep=1, n/st=1, rew=9650.07]
+Epoch #150:   0%|          | 2/5000 [00:00<00:47, 105.27it/s, env_step=745002, len=1000, loss/actor=-755.223, loss/critic1=21.420, loss/critic2=21.088, n/ep=0, n/st=1, rew=9650.07]Epoch #149: test_reward: 10057.579248 ± 119.882563, best_reward: 10294.643116 ± 95.198903 in #148
+Epoch #150: 5001it [00:40, 123.61it/s, env_step=750000, len=1000, loss/actor=-757.687, loss/critic1=20.710, loss/critic2=20.306, n/ep=1, n/st=1, rew=9499.60]
+Epoch #151:   0%|          | 2/5000 [00:00<00:42, 117.66it/s, env_step=750002, len=1000, loss/actor=-757.798, loss/critic1=20.791, loss/critic2=20.304, n/ep=0, n/st=1, rew=9499.60]Epoch #150: test_reward: 10186.360468 ± 76.764601, best_reward: 10294.643116 ± 95.198903 in #148
+Epoch #151: 5001it [00:39, 125.39it/s, env_step=755000, len=1000, loss/actor=-758.512, loss/critic1=20.870, loss/critic2=20.911, n/ep=1, n/st=1, rew=9766.89]
+Epoch #151: test_reward: 10147.653268 ± 102.198691, best_reward: 10294.643116 ± 95.198903 in #148
+Epoch #152: 5001it [00:40, 124.74it/s, env_step=760000, len=1000, loss/actor=-760.826, loss/critic1=20.276, loss/critic2=20.140, n/ep=1, n/st=1, rew=9867.72]
+Epoch #152: test_reward: 10160.038126 ± 91.207790, best_reward: 10294.643116 ± 95.198903 in #148
+Epoch #153: 5001it [00:40, 124.63it/s, env_step=765000, len=1000, loss/actor=-759.276, loss/critic1=20.383, loss/critic2=20.179, n/ep=1, n/st=1, rew=9878.19]
+Epoch #154:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=765002, len=1000, loss/actor=-759.477, loss/critic1=20.363, loss/critic2=20.197, n/ep=0, n/st=1, rew=9878.19]Epoch #153: test_reward: 10316.376507 ± 98.476935, best_reward: 10316.376507 ± 98.476935 in #153
+Epoch #154: 5001it [00:40, 124.72it/s, env_step=770000, len=1000, loss/actor=-760.987, loss/critic1=21.062, loss/critic2=20.617, n/ep=1, n/st=1, rew=9870.56]
+Epoch #154: test_reward: 10228.195877 ± 100.867585, best_reward: 10316.376507 ± 98.476935 in #153
+Epoch #155: 5001it [00:40, 124.19it/s, env_step=775000, len=1000, loss/actor=-767.000, loss/critic1=20.574, loss/critic2=20.236, n/ep=1, n/st=1, rew=9667.95]
+Epoch #156:   0%|          | 2/5000 [00:00<00:42, 117.64it/s, env_step=775002, len=1000, loss/actor=-767.387, loss/critic1=20.534, loss/critic2=20.144, n/ep=0, n/st=1, rew=9667.95]Epoch #155: test_reward: 10279.793971 ± 93.638829, best_reward: 10316.376507 ± 98.476935 in #153
+Epoch #156: 5001it [00:39, 125.34it/s, env_step=780000, len=1000, loss/actor=-766.227, loss/critic1=20.232, loss/critic2=19.958, n/ep=1, n/st=1, rew=9658.80]
+Epoch #157:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=780002, len=1000, loss/actor=-765.631, loss/critic1=20.108, loss/critic2=19.814, n/ep=0, n/st=1, rew=9658.80]Epoch #156: test_reward: 10286.220264 ± 129.430277, best_reward: 10316.376507 ± 98.476935 in #153
+Epoch #157: 5001it [00:40, 124.95it/s, env_step=785000, len=1000, loss/actor=-765.966, loss/critic1=20.289, loss/critic2=20.595, n/ep=1, n/st=1, rew=9852.58]
+Epoch #158:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=785002, len=1000, loss/actor=-765.139, loss/critic1=20.253, loss/critic2=20.665, n/ep=0, n/st=1, rew=9852.58]Epoch #157: test_reward: 10259.416281 ± 105.691460, best_reward: 10316.376507 ± 98.476935 in #153
+Epoch #158: 5001it [00:39, 125.12it/s, env_step=790000, len=1000, loss/actor=-767.898, loss/critic1=21.385, loss/critic2=21.548, n/ep=1, n/st=1, rew=9709.32]
+Epoch #158: test_reward: 9845.889361 ± 59.537307, best_reward: 10316.376507 ± 98.476935 in #153
+Epoch #159: 5001it [00:39, 125.95it/s, env_step=795000, len=1000, loss/actor=-769.474, loss/critic1=21.132, loss/critic2=20.736, n/ep=1, n/st=1, rew=9185.73]
+Epoch #160:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=795002, len=1000, loss/actor=-768.935, loss/critic1=20.857, loss/critic2=20.558, n/ep=0, n/st=1, rew=9185.73]Epoch #159: test_reward: 10438.598234 ± 80.668951, best_reward: 10438.598234 ± 80.668951 in #159
+Epoch #160: 5001it [00:39, 125.33it/s, env_step=800000, len=1000, loss/actor=-772.348, loss/critic1=21.795, loss/critic2=20.835, n/ep=1, n/st=1, rew=9940.87]
+Epoch #160: test_reward: 10383.221381 ± 102.671957, best_reward: 10438.598234 ± 80.668951 in #159
+Epoch #161: 5001it [00:39, 125.06it/s, env_step=805000, len=1000, loss/actor=-774.841, loss/critic1=20.942, loss/critic2=20.597, n/ep=1, n/st=1, rew=9927.65]
+Epoch #161: test_reward: 10331.683960 ± 136.091261, best_reward: 10438.598234 ± 80.668951 in #159
+Epoch #162: 5001it [00:39, 126.05it/s, env_step=810000, len=1000, loss/actor=-774.778, loss/critic1=21.010, loss/critic2=20.585, n/ep=1, n/st=1, rew=9853.54]
+Epoch #162: test_reward: 10429.324338 ± 179.744825, best_reward: 10438.598234 ± 80.668951 in #159
+Epoch #163: 5001it [00:39, 126.65it/s, env_step=815000, len=1000, loss/actor=-780.704, loss/critic1=21.390, loss/critic2=20.548, n/ep=1, n/st=1, rew=9983.38]
+Epoch #164:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=815002, len=1000, loss/actor=-780.646, loss/critic1=21.422, loss/critic2=20.466, n/ep=0, n/st=1, rew=9983.38]Epoch #163: test_reward: 10327.186611 ± 125.399879, best_reward: 10438.598234 ± 80.668951 in #159
+Epoch #164: 5001it [00:40, 124.96it/s, env_step=820000, len=1000, loss/actor=-775.383, loss/critic1=21.975, loss/critic2=21.706, n/ep=1, n/st=1, rew=9921.37]
+Epoch #164: test_reward: 10208.233942 ± 93.362924, best_reward: 10438.598234 ± 80.668951 in #159
+Epoch #165: 5001it [00:39, 126.26it/s, env_step=825000, len=1000, loss/actor=-780.336, loss/critic1=22.220, loss/critic2=21.805, n/ep=1, n/st=1, rew=10006.39]
+Epoch #166:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=825002, len=1000, loss/actor=-780.384, loss/critic1=22.244, loss/critic2=21.876, n/ep=0, n/st=1, rew=10006.39]Epoch #165: test_reward: 10423.888718 ± 131.797688, best_reward: 10438.598234 ± 80.668951 in #159
+Epoch #166: 5001it [00:39, 125.52it/s, env_step=830000, len=1000, loss/actor=-782.028, loss/critic1=22.364, loss/critic2=22.317, n/ep=1, n/st=1, rew=9643.13]
+Epoch #166: test_reward: 10458.284570 ± 88.444859, best_reward: 10458.284570 ± 88.444859 in #166
+Epoch #167: 5001it [00:39, 126.26it/s, env_step=835000, len=1000, loss/actor=-781.025, loss/critic1=22.294, loss/critic2=21.135, n/ep=1, n/st=1, rew=9719.58]
+Epoch #167: test_reward: 10501.593859 ± 90.149611, best_reward: 10501.593859 ± 90.149611 in #167
+Epoch #168: 5001it [00:39, 126.34it/s, env_step=840000, len=1000, loss/actor=-782.617, loss/critic1=23.433, loss/critic2=22.785, n/ep=1, n/st=1, rew=7050.26]
+Epoch #169:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=840002, len=1000, loss/actor=-782.644, loss/critic1=23.651, loss/critic2=22.975, n/ep=0, n/st=1, rew=7050.26]Epoch #168: test_reward: 10545.267136 ± 111.298149, best_reward: 10545.267136 ± 111.298149 in #168
+Epoch #169: 5001it [00:39, 127.27it/s, env_step=845000, len=1000, loss/actor=-783.583, loss/critic1=21.800, loss/critic2=21.768, n/ep=1, n/st=1, rew=9713.43]
+Epoch #169: test_reward: 10533.311384 ± 87.288432, best_reward: 10545.267136 ± 111.298149 in #168
+Epoch #170: 5001it [00:39, 126.00it/s, env_step=850000, len=1000, loss/actor=-786.886, loss/critic1=21.961, loss/critic2=21.681, n/ep=1, n/st=1, rew=9849.04]
+Epoch #170: test_reward: 10435.776331 ± 164.400874, best_reward: 10545.267136 ± 111.298149 in #168
+Epoch #171: 5001it [00:39, 126.47it/s, env_step=855000, len=1000, loss/actor=-786.607, loss/critic1=22.867, loss/critic2=22.050, n/ep=1, n/st=1, rew=9739.86]
+Epoch #172:   0%|          | 2/5000 [00:00<00:42, 117.65it/s, env_step=855002, len=1000, loss/actor=-787.168, loss/critic1=22.809, loss/critic2=21.952, n/ep=0, n/st=1, rew=9739.86]Epoch #171: test_reward: 10520.331294 ± 113.963743, best_reward: 10545.267136 ± 111.298149 in #168
+Epoch #172: 5001it [00:39, 126.12it/s, env_step=860000, len=1000, loss/actor=-784.431, loss/critic1=24.734, loss/critic2=24.023, n/ep=1, n/st=1, rew=10110.10]
+Epoch #172: test_reward: 10373.054499 ± 88.837431, best_reward: 10545.267136 ± 111.298149 in #168
+Epoch #173: 5001it [00:39, 127.86it/s, env_step=865000, len=1000, loss/actor=-792.280, loss/critic1=22.082, loss/critic2=21.683, n/ep=1, n/st=1, rew=10066.05]
+Epoch #173: test_reward: 10408.382365 ± 74.921977, best_reward: 10545.267136 ± 111.298149 in #168
+Epoch #174: 5001it [00:39, 126.51it/s, env_step=870000, len=1000, loss/actor=-792.703, loss/critic1=24.164, loss/critic2=23.522, n/ep=1, n/st=1, rew=9690.02]
+Epoch #175:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=870002, len=1000, loss/actor=-792.782, loss/critic1=24.106, loss/critic2=23.429, n/ep=0, n/st=1, rew=9690.02]Epoch #174: test_reward: 10539.084515 ± 154.505096, best_reward: 10545.267136 ± 111.298149 in #168
+Epoch #175: 5001it [00:39, 125.53it/s, env_step=875000, len=1000, loss/actor=-789.747, loss/critic1=23.950, loss/critic2=23.518, n/ep=1, n/st=1, rew=9785.26]
+Epoch #175: test_reward: 10553.905870 ± 99.638516, best_reward: 10553.905870 ± 99.638516 in #175
+Epoch #176: 5001it [00:39, 127.08it/s, env_step=880000, len=1000, loss/actor=-791.190, loss/critic1=23.051, loss/critic2=23.791, n/ep=1, n/st=1, rew=10130.20]
+Epoch #176: test_reward: 10418.673805 ± 147.629929, best_reward: 10553.905870 ± 99.638516 in #175
+Epoch #177: 5001it [00:39, 127.79it/s, env_step=885000, len=1000, loss/actor=-793.446, loss/critic1=23.404, loss/critic2=23.327, n/ep=1, n/st=1, rew=9827.91]
+Epoch #178:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=885002, len=1000, loss/actor=-793.133, loss/critic1=23.331, loss/critic2=23.174, n/ep=0, n/st=1, rew=9827.91]Epoch #177: test_reward: 10661.398765 ± 92.437584, best_reward: 10661.398765 ± 92.437584 in #177
+Epoch #178: 5001it [00:39, 127.27it/s, env_step=890000, len=1000, loss/actor=-795.010, loss/critic1=22.798, loss/critic2=22.594, n/ep=1, n/st=1, rew=10189.26]
+Epoch #178: test_reward: 10607.102064 ± 108.710644, best_reward: 10661.398765 ± 92.437584 in #177
+Epoch #179: 5001it [00:39, 126.74it/s, env_step=895000, len=1000, loss/actor=-795.340, loss/critic1=24.799, loss/critic2=24.168, n/ep=1, n/st=1, rew=10112.33]
+Epoch #180:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=895002, len=1000, loss/actor=-795.099, loss/critic1=24.734, loss/critic2=24.144, n/ep=0, n/st=1, rew=10112.33]Epoch #179: test_reward: 10496.396181 ± 81.994647, best_reward: 10661.398765 ± 92.437584 in #177
+Epoch #180: 5001it [00:38, 129.18it/s, env_step=900000, len=1000, loss/actor=-798.983, loss/critic1=22.421, loss/critic2=22.363, n/ep=1, n/st=1, rew=10073.09]
+Epoch #180: test_reward: 10772.701378 ± 139.061036, best_reward: 10772.701378 ± 139.061036 in #180
+Epoch #181: 5001it [00:39, 127.38it/s, env_step=905000, len=1000, loss/actor=-799.913, loss/critic1=22.393, loss/critic2=21.885, n/ep=1, n/st=1, rew=10006.61]
+Epoch #182:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=905002, len=1000, loss/actor=-799.544, loss/critic1=22.429, loss/critic2=21.923, n/ep=0, n/st=1, rew=10006.61]Epoch #181: test_reward: 10690.082534 ± 113.571086, best_reward: 10772.701378 ± 139.061036 in #180
+Epoch #182: 5001it [00:38, 128.65it/s, env_step=910000, len=1000, loss/actor=-799.421, loss/critic1=23.242, loss/critic2=22.811, n/ep=1, n/st=1, rew=9893.84]
+Epoch #183:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=910002, len=1000, loss/actor=-799.367, loss/critic1=23.197, loss/critic2=22.843, n/ep=0, n/st=1, rew=9893.84]Epoch #182: test_reward: 10512.628987 ± 132.469553, best_reward: 10772.701378 ± 139.061036 in #180
+Epoch #183: 5001it [00:39, 127.55it/s, env_step=915000, len=1000, loss/actor=-798.211, loss/critic1=23.555, loss/critic2=23.103, n/ep=1, n/st=1, rew=9970.03]
+Epoch #184:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=915002, len=1000, loss/actor=-798.004, loss/critic1=23.521, loss/critic2=23.087, n/ep=0, n/st=1, rew=9970.03]Epoch #183: test_reward: 10621.359687 ± 125.883815, best_reward: 10772.701378 ± 139.061036 in #180
+Epoch #184: 5001it [00:38, 130.36it/s, env_step=920000, len=1000, loss/actor=-800.610, loss/critic1=23.945, loss/critic2=23.075, n/ep=1, n/st=1, rew=9989.40]
+Epoch #184: test_reward: 10771.969326 ± 153.025161, best_reward: 10772.701378 ± 139.061036 in #180
+Epoch #185: 5001it [00:39, 127.84it/s, env_step=925000, len=1000, loss/actor=-802.137, loss/critic1=22.962, loss/critic2=22.775, n/ep=1, n/st=1, rew=10420.14]
+Epoch #186:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=925002, len=1000, loss/actor=-802.600, loss/critic1=22.988, loss/critic2=22.743, n/ep=0, n/st=1, rew=10420.14]Epoch #185: test_reward: 10535.735596 ± 63.051742, best_reward: 10772.701378 ± 139.061036 in #180
+Epoch #186: 5001it [00:38, 129.01it/s, env_step=930000, len=1000, loss/actor=-804.301, loss/critic1=22.379, loss/critic2=21.771, n/ep=1, n/st=1, rew=9998.10]
+Epoch #186: test_reward: 10839.586152 ± 80.741325, best_reward: 10839.586152 ± 80.741325 in #186
+Epoch #187: 5001it [00:39, 127.18it/s, env_step=935000, len=1000, loss/actor=-806.794, loss/critic1=24.171, loss/critic2=23.410, n/ep=1, n/st=1, rew=10175.85]
+Epoch #188:   0%|          | 2/5000 [00:00<00:39, 125.02it/s, env_step=935002, len=1000, loss/actor=-806.977, loss/critic1=24.149, loss/critic2=23.430, n/ep=0, n/st=1, rew=10175.85]Epoch #187: test_reward: 10416.463106 ± 124.556371, best_reward: 10839.586152 ± 80.741325 in #186
+Epoch #188: 5001it [00:38, 129.83it/s, env_step=940000, len=1000, loss/actor=-805.633, loss/critic1=24.082, loss/critic2=23.592, n/ep=1, n/st=1, rew=10176.10]
+Epoch #188: test_reward: 10812.112141 ± 118.477723, best_reward: 10839.586152 ± 80.741325 in #186
+Epoch #189: 5001it [00:39, 127.84it/s, env_step=945000, len=1000, loss/actor=-804.000, loss/critic1=24.971, loss/critic2=24.390, n/ep=1, n/st=1, rew=10177.30]
+Epoch #190:   0%|          | 2/5000 [00:00<00:37, 133.36it/s, env_step=945002, len=1000, loss/actor=-804.631, loss/critic1=25.116, loss/critic2=24.423, n/ep=0, n/st=1, rew=10177.30]Epoch #189: test_reward: 10521.647570 ± 89.441905, best_reward: 10839.586152 ± 80.741325 in #186
+Epoch #190: 5001it [00:39, 128.04it/s, env_step=950000, len=1000, loss/actor=-808.615, loss/critic1=25.450, loss/critic2=24.009, n/ep=1, n/st=1, rew=10138.89]
+Epoch #191:   0%|          | 2/5000 [00:00<00:39, 125.01it/s, env_step=950002, len=1000, loss/actor=-808.816, loss/critic1=25.255, loss/critic2=23.814, n/ep=0, n/st=1, rew=10138.89]Epoch #190: test_reward: 10793.892267 ± 57.430947, best_reward: 10839.586152 ± 80.741325 in #186
+Epoch #191: 5001it [00:39, 127.69it/s, env_step=955000, len=1000, loss/actor=-809.923, loss/critic1=24.968, loss/critic2=24.491, n/ep=1, n/st=1, rew=10161.11]
+Epoch #191: test_reward: 10940.979747 ± 96.209119, best_reward: 10940.979747 ± 96.209119 in #191
+Epoch #192: 5001it [00:38, 128.50it/s, env_step=960000, len=1000, loss/actor=-812.774, loss/critic1=23.235, loss/critic2=22.005, n/ep=1, n/st=1, rew=9866.70]
+Epoch #193:   0%|          | 2/5000 [00:00<00:42, 117.64it/s, env_step=960002, len=1000, loss/actor=-813.312, loss/critic1=23.182, loss/critic2=21.950, n/ep=0, n/st=1, rew=9866.70]Epoch #192: test_reward: 10792.781356 ± 74.890708, best_reward: 10940.979747 ± 96.209119 in #191
+Epoch #193: 5001it [00:38, 128.41it/s, env_step=965000, len=1000, loss/actor=-812.961, loss/critic1=24.580, loss/critic2=23.352, n/ep=1, n/st=1, rew=9933.92]
+Epoch #193: test_reward: 10815.022571 ± 117.605698, best_reward: 10940.979747 ± 96.209119 in #191
+Epoch #194: 5001it [00:39, 127.52it/s, env_step=970000, len=1000, loss/actor=-811.736, loss/critic1=23.341, loss/critic2=23.278, n/ep=1, n/st=1, rew=10448.48]
+Epoch #195:   0%|          | 2/5000 [00:00<00:42, 117.66it/s, env_step=970002, len=1000, loss/actor=-811.858, loss/critic1=23.126, loss/critic2=23.127, n/ep=0, n/st=1, rew=10448.48]Epoch #194: test_reward: 10633.920998 ± 159.556358, best_reward: 10940.979747 ± 96.209119 in #191
+Epoch #195: 5001it [00:38, 128.30it/s, env_step=975000, len=1000, loss/actor=-812.548, loss/critic1=24.427, loss/critic2=23.650, n/ep=1, n/st=1, rew=10121.27]
+Epoch #196:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=975002, len=1000, loss/actor=-812.784, loss/critic1=24.497, loss/critic2=23.705, n/ep=0, n/st=1, rew=10121.27]Epoch #195: test_reward: 10810.692146 ± 87.037392, best_reward: 10940.979747 ± 96.209119 in #191
+Epoch #196: 5001it [00:39, 127.31it/s, env_step=980000, len=1000, loss/actor=-821.099, loss/critic1=25.823, loss/critic2=24.892, n/ep=1, n/st=1, rew=10380.25]
+Epoch #197:   0%|          | 2/5000 [00:00<00:39, 125.00it/s, env_step=980002, len=1000, loss/actor=-821.084, loss/critic1=25.693, loss/critic2=24.771, n/ep=0, n/st=1, rew=10380.25]Epoch #196: test_reward: 10753.916475 ± 95.876829, best_reward: 10940.979747 ± 96.209119 in #191
+Epoch #197: 5001it [00:38, 128.83it/s, env_step=985000, len=1000, loss/actor=-821.779, loss/critic1=24.912, loss/critic2=24.458, n/ep=1, n/st=1, rew=10227.52]
+Epoch #198:   0%|          | 2/5000 [00:00<00:47, 105.26it/s, env_step=985002, len=1000, loss/actor=-821.066, loss/critic1=25.129, loss/critic2=24.693, n/ep=0, n/st=1, rew=10227.52]Epoch #197: test_reward: 11000.385152 ± 107.334394, best_reward: 11000.385152 ± 107.334394 in #197
+Epoch #198: 5001it [00:39, 127.53it/s, env_step=990000, len=1000, loss/actor=-825.439, loss/critic1=24.612, loss/critic2=23.626, n/ep=1, n/st=1, rew=10163.22]
+Epoch #199:   0%|          | 2/5000 [00:00<00:44, 111.11it/s, env_step=990002, len=1000, loss/actor=-825.407, loss/critic1=24.594, loss/critic2=23.624, n/ep=0, n/st=1, rew=10163.22]Epoch #198: test_reward: 10735.345062 ± 108.354694, best_reward: 11000.385152 ± 107.334394 in #197
+Epoch #199: 5001it [00:39, 128.04it/s, env_step=995000, len=1000, loss/actor=-824.752, loss/critic1=24.328, loss/critic2=24.052, n/ep=1, n/st=1, rew=10062.23]
+Epoch #199: test_reward: 10970.948856 ± 128.388648, best_reward: 11000.385152 ± 107.334394 in #197
+Epoch #200: 5001it [00:39, 125.88it/s, env_step=1000000, len=1000, loss/actor=-829.920, loss/critic1=23.965, loss/critic2=23.176, n/ep=1, n/st=1, rew=10191.75]
+Epoch #200: test_reward: 10781.044276 ± 190.014835, best_reward: 11000.385152 ± 107.334394 in #197
+{'best_result': '11000.39 ± 107.33',
+ 'best_reward': 11000.385152283872,
+ 'duration': '8218.24s',
+ 'test_episode': 2010,
+ 'test_speed': '6241.26 step/s',
+ 'test_step': 2010000,
+ 'test_time': '322.05s',
+ 'train_episode': 1000,
+ 'train_speed': '126.64 step/s',
+ 'train_step': 1000000,
+ 'train_time/collector': '1108.68s',
+ 'train_time/model': '6787.51s'}
+Final reward: 10766.43331263071, length: 1000.0
+
+Process finished with exit code 0
