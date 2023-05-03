@@ -2,7 +2,7 @@
 
 In this project, I follow the instructions and try to reproduce the results from [Tianshou MuJoCo benchmark](https://github.com/thu-ml/tianshou/tree/master/examples/mujoco).
 
-I benchmarked 9 Tianshou algorithm implementations in 11 out of 11 environments from [MuJoCo](https://gymnasium.farama.org/environments/mujoco/) provided by Gymnasium.<sup>[[1]](#footnote1)</sup>.
+I benchmarked 9 Tianshou algorithm implementations in 11 out of 11 environments from [Gymnasium MuJoCo task suite](https://gymnasium.farama.org/environments/mujoco/) provided by Gymnasium.<sup>[[1]](#footnote1)</sup>.
 
 For each supported algorithm and supported MuJoCo environments, we provide:
 - Default hyperparameters used for benchmark and scripts to reproduce the benchmark.
