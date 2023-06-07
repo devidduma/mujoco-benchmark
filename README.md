@@ -1,12 +1,10 @@
 # Tianshou's Mujoco Benchmark
 
-In this project, I follow the instructions and try to reproduce the results from [Tianshou MuJoCo benchmark](https://github.com/thu-ml/tianshou/tree/master/examples/mujoco).
+## Abstract
 
-I benchmarked 9 Tianshou algorithm implementations in 11 out of 11 environments from [Gymnasium MuJoCo task suite](https://gymnasium.farama.org/environments/mujoco/) provided by Gymnasium.<sup>[[1]](#footnote1)</sup>.
+In this project, we follow the instructions and try to reproduce the results from [Tianshou MuJoCo benchmark](https://github.com/thu-ml/tianshou/tree/master/examples/mujoco). We benchmark 9 Tianshou algorithm implementations in 11 out of 11 environments from [Gymnasium MuJoCo task suite](https://gymnasium.farama.org/environments/mujoco/) provided by Gymnasium.<sup>[[1]](#footnote1)</sup> Essentially, in total we execute `9×11=99` tasks in our experiments.
 
-For each supported algorithm and supported MuJoCo environments, we provide:
-- Default hyperparameters used for benchmark and scripts to reproduce the benchmark.
-- Pretrained agents and log details can all be found in the folder [second_benchmark/log](https://github.com/devidduma/mujoco-benchmark/tree/master/second_benchmark/log).
+## Supported algorithms
 
 Supported algorithms are listed below:
 - [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/pdf/1509.02971.pdf), [commit id](https://github.com/thu-ml/tianshou/tree/e605bdea942b408126ef4fbc740359773259c9ec)
@@ -20,23 +18,24 @@ Supported algorithms are listed below:
 - [Hindsight Experience Replay (HER)](https://arxiv.org/abs/1707.01495)
 
 ## Usage
-
-For each environment, a Jupyter Notebook is available to train 9 Deep Reinforcement Learning algorithms.  Logs are then saved in `./log/` and can be monitored with tensorboard.
+Refer to the [benchmark](./benchmark) folder to reproduce the results. For each environment, a Jupyter Notebook is available to train 9 Deep Reinforcement Learning algorithms.
+1. Execute all tasks in one notebook, to benchmark 9 DRL algorithms in that specific environment. To best use computational resources, we suggest executing 3 notebooks at a time. Each notebook takes approximately the same time to execute as other notebooks.
+2. When execution is complete, multiple details are saved in the notebooks. This includes speed of training, running times for training and testing, best scores etc. Pretrained agents and logs are then saved in [benchmark/log](./benchmark/log) folder and can be monitored with Tensorboard to generate graph plots.
 
 ```bash
 $ tensorboard --logdir log
 ```
 
-Tensorboard is the preferred way to analyze the results. Additionally, bash scripts are also available that can convert all tfevent files into csv files, then try plotting the results.
+## Results
+All results in our experiments are saved in the [benchmark](./benchmark) folder.
+ - [benchmark/log](./benchmark/log) folder: contains all pretrained agents and logs, which can be plotted with Tensorboard.
+ - [benchmark/plots](./benchmark/plots) folder: graph plots generated with Tensorboard.
 
-```bash
-# generate csv
-$ ./tools.py --root-dir ./results/Ant-v4/sac
-# generate figures
-$ ./plotter.py --root-dir ./results/Ant-v4 --shaded-std --legend-pattern "\\w+"
-# generate numerical result (support multiple groups: `--root-dir ./` instead of single dir)
-$ ./analysis.py --root-dir ./results --norm
-```
+## Video demonstrations
+
+For each task, we have generated video demonstrations of our pretrained agents and saved the videos in the [demonstrations](./demonstrations) folder.
+
+To generate new videos, simply run the script [demonstrations/demonstrations.py](./demonstrations/demonstrations.py). This will generate new videos for all tasks in all environments in batch.
 
 ## Note
 

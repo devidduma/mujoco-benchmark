@@ -126,7 +126,7 @@ if __name__ == '__main__':
     for task in tasks:
         for policy_type in policies:
 
-            log_dir = os.path.join("..", "second_benchmark", "log")
+            log_dir = os.path.join("..", "benchmark", "log")
             seed = "0"
             partial_path = os.path.join(log_dir, task, policy_type, seed)
             dir = os.listdir(partial_path)[0]   # there is only one directory

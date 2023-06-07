@@ -16,4 +16,4 @@ def convert_to_png(relative_path):
     image.write_to_file(relative_path[:-4]+".png")
 
 if __name__ == '__main__':
-    print(batch_svg_files(path="./second_benchmark/plots", choice="convert"))
+    print(batch_svg_files(path="./benchmark/plots", choice="convert"))
