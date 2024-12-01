@@ -1,5 +1,25 @@
 # Tianshou's Mujoco Benchmark
 
+## Video demonstrations
+
+### Pretrained agents using REDQ
+
+| Ant                                                       | Half Cheetah                                                              | Hopper | Humanoid |
+|-----------------------------------------------------------|---------------------------------------------------------------------------|--------|----------|
+| ![REDQ_Ant-v4](./demonstrations/gifs/REDQ_Ant-v4_GIF.gif) | ![REDQ_HalfCheetah-v4](./demonstrations/gifs/REDQ_HalfCheetah-v4_GIF.gif) |![REDQ_Hopper-v4](./demonstrations/gifs/REDQ_Hopper-v4_GIF.gif)|![REDQ_Humanoid-v4](./demonstrations/gifs/REDQ_Humanoid-v4_GIF.gif)|
+
+| Humanoid Standup                                                      | Inverted Pendulum                                                                   | Inverted Double Pendulum                                                                        | Reacher                                                           |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| ![REDQ_HumanoidStandup-v4](./demonstrations/gifs/REDQ_HumanoidStandup-v4_GIF.gif) | ![REDQ_InvertedPendulum-v4](./demonstrations/gifs/REDQ_InvertedPendulum-v4_GIF.gif) | ![REDQ_InvertedDoublePendulum-v4](./demonstrations/gifs/REDQ_InvertedDoublePendulum-v4_GIF.gif) | ![REDQ_Reacher-v4](./demonstrations/gifs/REDQ_Reacher-v4_GIF.gif) |
+
+| Pusher                                                          | Swimmer                                                           | Walker2d                                                            |
+|-----------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------|
+| ![REDQ_Pusher-v4](./demonstrations/gifs/REDQ_Pusher-v4_GIF.gif) | ![REDQ_Swimmer-v4](./demonstrations/gifs/REDQ_Swimmer-v4_GIF.gif) | ![REDQ_Walker2d-v4](./demonstrations/gifs/REDQ_Walker2d-v4_GIF.gif) |
+
+For each task, we have generated video demonstrations of our pretrained agents and saved the videos in the [demonstrations](./demonstrations) folder.
+
+To generate new videos, simply run the script [demonstrations/demonstrations.py](./demonstrations/demonstrations.py). This will generate new videos for all tasks in all environments in batch.
+
 ## Abstract
 
 In this project, we follow the instructions and try to reproduce the results from [Tianshou MuJoCo benchmark](https://github.com/thu-ml/tianshou/tree/master/examples/mujoco). We benchmark 9 Tianshou algorithm implementations in 11 out of 11 environments from [Gymnasium MuJoCo task suite](https://gymnasium.farama.org/environments/mujoco/) provided by Gymnasium.<sup>[[1]](#footnote1)</sup> Essentially, in total we execute `9×11=99` tasks in our experiments.
@@ -34,27 +54,6 @@ $ tensorboard --logdir log
 All results in our experiments are saved in the [benchmark](./benchmark) folder.
  - [benchmark/log](./benchmark/log) folder: contains all pretrained agents and logs, which can be plotted with Tensorboard.
  - [benchmark/plots](./benchmark/plots) folder: graph plots generated with Tensorboard.
-
-## Video demonstrations
-
-For each task, we have generated video demonstrations of our pretrained agents and saved the videos in the [demonstrations](./demonstrations) folder.
-
-To generate new videos, simply run the script [demonstrations/demonstrations.py](./demonstrations/demonstrations.py). This will generate new videos for all tasks in all environments in batch.
-
-### Example: Pretrained agents using REDQ
-
-| Ant                                                       | Half Cheetah                                                              | Hopper | Humanoid |
-|-----------------------------------------------------------|---------------------------------------------------------------------------|--------|----------|
-| ![REDQ_Ant-v4](./demonstrations/gifs/REDQ_Ant-v4_GIF.gif) | ![REDQ_HalfCheetah-v4](./demonstrations/gifs/REDQ_HalfCheetah-v4_GIF.gif) |![REDQ_Hopper-v4](./demonstrations/gifs/REDQ_Hopper-v4_GIF.gif)|![REDQ_Humanoid-v4](./demonstrations/gifs/REDQ_Humanoid-v4_GIF.gif)|
-
-| Humanoid Standup                                                      | Inverted Pendulum                                                                   | Inverted Double Pendulum                                                                        | Reacher                                                           |
-|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| ![REDQ_HumanoidStandup-v4](./demonstrations/gifs/REDQ_HumanoidStandup-v4_GIF.gif) | ![REDQ_InvertedPendulum-v4](./demonstrations/gifs/REDQ_InvertedPendulum-v4_GIF.gif) | ![REDQ_InvertedDoublePendulum-v4](./demonstrations/gifs/REDQ_InvertedDoublePendulum-v4_GIF.gif) | ![REDQ_Reacher-v4](./demonstrations/gifs/REDQ_Reacher-v4_GIF.gif) |
-
-| Pusher                                                          | Swimmer                                                           | Walker2d                                                            |
-|-----------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------|
-| ![REDQ_Pusher-v4](./demonstrations/gifs/REDQ_Pusher-v4_GIF.gif) | ![REDQ_Swimmer-v4](./demonstrations/gifs/REDQ_Swimmer-v4_GIF.gif) | ![REDQ_Walker2d-v4](./demonstrations/gifs/REDQ_Walker2d-v4_GIF.gif) |
-
 
 ## Note
 
